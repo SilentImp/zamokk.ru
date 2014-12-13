@@ -1,0 +1,79 @@
+.carousel-widget{
+  width: 100%;
+  position: relative;
+  }
+  .carousel-widget .buttons{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 0;
+    line-height: 53px;
+    }
+    .carousel-widget .buttons a{
+      vertical-align: middle;
+      height: 53px;
+      width: 53px;
+      float: left;
+      margin-left: 1px;
+      color: #FFF;
+      background-color: #bbd6dd;
+      font-size: 16px;
+      line-height: 53px;
+      text-align: center;
+      }
+    .carousel-widget .buttons a.prev:after{
+      content: "\E802";
+      }
+    .carousel-widget .buttons a.next:after{
+      content: "\E806";
+      }
+  .carousel-widget .points{
+    display: block;
+    font-size: 0;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    padding: 0 108px 0 0;
+    }
+    .carousel-widget .points a{
+      vertical-align: middle;
+      display: inline-block;
+      border-radius: 100%;
+      margin: 0 5px;
+      width: 10px;
+      height: 10px;
+      border:1px solid #bbd6dd;
+      transition: box-shadow .25s, background-color .25s;
+      }
+      .carousel-widget .points a.selected{
+        box-shadow: 0 0 0 3px #bbd6dd;
+        background-color: #bbd6dd;
+        }
+      .carousel-widget .points a:hover{
+        background-color: #bbd6dd;
+        }
+  .carousel-widget .figures{
+    overflow: hidden;
+    width: 100%;
+    margin:0 0 10px;
+    font-size: 0;
+    white-space: nowrap;
+    position: relative;
+    display: block;
+    }
+    .carousel-widget .figures .figures-wrapper{
+      width: 100%;
+      line-height: 362px;
+      position: relative;
+      left: 0;
+      display: block;
+      }
+    .carousel-widget .figures .figures-wrapper figure{
+      width: 100%;
+      display: inline-block;
+      vertical-align: top;
+      }
+      .carousel-widget .figures .figures-wrapper figure img{
+        display: block;
+        width: 100%;
+        }

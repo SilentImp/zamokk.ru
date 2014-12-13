@@ -1,0 +1,379 @@
+.private-widget form.save{
+  padding: 48px 0;
+  }
+  .private-widget form.save .passport{
+    white-space: nowrap;
+    font-size: 0;
+    line-height: 0;
+    padding-top: 24px;
+    }
+    #create_passport_serial,
+    #passport_serial{
+      width: 80px;
+      }
+    #create_passport_number,
+    #passport_number{
+      width: 100px;
+      }
+    #create_passport_date,
+    #passport_date{
+      width: 180px;
+      }
+    .private-widget form.save .passport .details input{
+      display: inline-block;
+      vertical-align: bottom;
+      }
+    .private-widget form.save .passport .details label{
+      display: inline-block;
+      position: relative;
+      vertical-align: bottom;
+      margin-right: 20px;
+      }
+      .private-widget form.save .passport .details label+label span{
+        width: auto;
+        position: absolute;
+        bottom: 100%;
+        line-height: 24px;
+        left: 0;
+        }
+    .private-widget form.save .passport .passport_serial{
+
+      }
+  .private-widget .you-may-like{
+    margin: 0;
+    }
+  .private-widget .catalogue-widget{
+    padding: 24px 0 0;
+    }
+  .radio-line{
+    
+    }
+    .private-widget form.save .radio-line input.disabled+label{
+      color: #ccc;
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      }
+      .private-widget form.save .radio-line input.disabled+label:before{
+        border:1px solid #e6e6e6;
+        background: none;
+        text-indent: -9999px;
+        color: #FFF;
+        }
+    .private-widget form.save .radio-line input:checked+label{
+      color: #333;
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      }
+      .private-widget form.save .radio-line label:hover:before,
+      .private-widget form.save .radio-line input:checked+label:before{
+        border-color: #98c2cc;
+        background-color: #98C2CC;
+        color: #fff;
+        text-indent: 0;
+        }
+    .private-widget form.save .radio-line label:hover{
+      color: #333;
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      }
+    .private-widget form.save fieldset.radio-line label{
+      max-width: none;
+      text-align: left;
+      display: block;
+      vertical-align: middle;
+      font-size: 14px;
+      line-height: 36px;
+      color: #333;
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      white-space: nowrap;
+      position: relative;
+      margin: 0;
+      }
+      .private-widget form.save .radio-line label span{
+        display: inline-block;
+        vertical-align: middle;
+        white-space: normal;
+        text-align: left;
+        line-height: 36px;
+        }
+      .private-widget form.save .radio-line label:before{
+
+        content: '\e810';
+        font-family: "fontello";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        speak: none;
+       
+        text-decoration: none;
+        text-align: center;
+       
+        font-variant: normal;
+        text-transform: none;
+           
+        line-height: 20px;
+        margin-right: 10px;
+              
+        overflow: hidden;
+        width: 20px;
+        height: 20px;
+        border:1px solid #98c2cc;
+        vertical-align: middle;
+        display: inline-block;
+        
+        text-indent: -9999px;
+        border-radius: 100%;
+        color: #fff;
+        }
+    .private-widget form.save .radio-line input{
+      display: inline-block;
+      vertical-align: middle;
+      position: absolute;
+      left: -99999px;
+      }
+  .private-widget form.save>nav{
+    }
+    .private-widget form.save>nav button{
+      border-style: none;
+      background: none;
+      padding: 0;
+      display: block;
+      height: 100%;
+      font-size: 16px;
+      height: 48px;
+      line-height: 48px;
+      text-align: center;
+      box-sizing: border-box;
+      text-transform: uppercase;
+      color: #FFF;
+      width: 270px;
+      background-color: #333;
+      margin: 0 0 0 105px;
+      }
+  .private-widget form.save input.tel::-webkit-input-placeholder {
+    font-size: 14px;
+    color: #ccc;
+    }
+  .private-widget form.save input.tel:-moz-placeholder { /* Firefox 18- */
+    font-size: 14px;
+    color: #ccc;
+    }
+  .private-widget form.save input.tel::-moz-placeholder {  /* Firefox 19+ */
+    font-size: 14px;
+    color: #ccc; 
+    }
+  .private-widget form.save input.tel:-ms-input-placeholder {  
+    font-size: 14px;
+    color: #ccc; 
+    }
+  .private-widget form.save p{
+    margin-bottom: 24px;
+    }
+  .private-widget form.save fieldset{
+    margin-bottom: 24px;
+    }
+  .private-widget form.save fieldset label{
+    display: block;
+    margin-bottom: 24px;
+    color: #414042;
+    }
+    .private-widget form.save fieldset label input{
+      border: 2px solid #ebebeb;
+      display: inline-block;
+      margin: 0;
+      padding: 13px 10px 14px;
+      box-sizing: border-box;
+      font-size: 18px;
+      line-height: 22px;
+      height: 53px;
+      width: 400px;
+      }
+      .private-widget form.save fieldset label ::-webkit-input-placeholder{
+        font-size: 20px;
+        line-height: 22px;
+        }
+      .private-widget form.save fieldset label :-moz-placeholder {
+        font-size: 20px;
+        line-height: 22px;
+        }
+      .private-widget form.save fieldset label ::-moz-placeholder {
+        font-size: 20px;
+        line-height: 22px;
+        }
+      .private-widget form.save fieldset label :-ms-input-placeholder {  
+        font-size: 20px;
+        line-height: 22px;
+        }
+    .private-widget form.save fieldset label span{
+      text-transform: uppercase;
+      display: inline-block;
+      width: 100px;
+      text-align: right;
+      margin-right: 5px;
+      font-size: 12px;
+      line-height: 53px;
+      vertical-align: middle;
+      font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+      }
+      .private-widget form.save fieldset label span.two-line{
+        line-height: 26px;
+        }
+
+
+
+
+.private-widget{
+  clear: both;
+  }
+  .private-widget .title{
+    font-size: 32px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #414042;
+    font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+    margin-bottom: 48px;
+    }
+  .private-widget .hello{
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+    }
+    .private-widget .hello:before{
+      margin-right: 5px;
+      font-size: 12px;
+      position: relative;
+      top: -1px;
+      }
+  .private-widget .logout{
+    float: right;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+    }
+    .private-widget .logout:before{
+      margin-right: 5px;
+      font-size: 12px;
+      }
+    .private-widget .logout span{
+      text-decoration: underline;
+      }
+    .private-widget .logout:hover span{
+      text-decoration: none;
+      }
+  .private-widget>.tabs{
+    margin-top: 12px;
+    }
+    .private-widget .chapter.personal{
+      
+      }
+      .private-widget .chapter.personal .add-payer{
+        
+        }
+        .private-widget .chapter.personal .add-payer .tabs{
+
+          }
+          .private-widget .chapter.personal .add-payer .tabs nav{
+            font-size: 0;
+            }
+            .private-widget .chapter.personal .add-payer .tabs nav a{
+              box-sizing: border-box;
+              width: 50%;
+              border-left: 1px solid #fff;
+              box-shadow: inset 0 0 0 2px #ebebeb;
+              color: #ccc;
+              display: inline-block;
+              height: 53px;
+              font-size: 12px;
+              line-height: 53px;
+              text-transform: uppercase;
+              text-align: center;
+              }
+              .private-widget .chapter.personal .add-payer .tabs nav a:hover{
+                background-color: #ebebeb;
+                color: #414042;
+                }
+              .private-widget .chapter.personal .add-payer .tabs nav a.selected{
+                color: #414042;
+                }
+              .private-widget .chapter.personal .add-payer .tabs nav a:first-child{
+                border-left-style: none;
+                }
+      .private-widget .chapter.personal .payers{
+        padding: 48px 0;
+        }
+        .private-widget .chapter.personal .payers ul{
+          font-size: 0;
+          }
+          .private-widget .chapter.personal .payers ul li{
+            border: 2px solid #ebebeb;
+            display: inline-block;
+            line-height: 24px;
+            font-size: 14px;
+            height: 24px;
+            padding: 12px 12px 12px 24px;
+            margin-right: 1px;
+            }
+            .private-widget .chapter.personal .payers ul li:hover{
+              color: #333;
+              }
+            .private-widget .chapter.personal .payers ul li:hover a{
+              color: #333;
+              }
+            .private-widget .chapter.personal .payers ul li a{
+              display: inline-block;
+              width: 24px;
+              height: 24px;
+              overflow: hidden;
+              vertical-align: middle;
+              text-align: center;
+              color: #ccc;
+              transition: color .25s;
+              }
+              .private-widget .chapter.personal .payers ul li a:hover{
+                color: #A4C8D0;
+                }
+    .private-widget .tabs>.chapter{
+      display: none;
+      min-height:96px;
+      }
+    .private-widget .tabs>.chapter.selected{
+      display: block;
+      }
+    .private-widget>.tabs>nav{
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      background-color: #ebebeb;
+      }
+      .private-widget>.tabs>nav a{
+        text-decoration: none;
+        flex-grow: 1;
+        box-sizing: border-box;
+        text-transform: uppercase;
+        float: left;
+        display: block;
+        width: 25%;
+        text-align: center;
+        box-sizing: border-box;
+        border-left: 1px solid #fff;
+        color: #666;
+        font-size: 14px;
+        height: 48px;
+        line-height: 48px;
+        font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+        }
+        .private-widget>.tabs>nav a:hover{
+          background-color: #bbd6dd;
+          color: #fff;
+          font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+          }
+        .private-widget>.tabs>nav a.selected{
+          pointer-events: none;
+          cursor: default;
+          background-color: #bbd6dd;
+          color: #fff;
+          font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+          }
+        .private-widget>.tabs>nav a:first-child{
+          border-left-style: none;
+          }

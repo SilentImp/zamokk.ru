@@ -1,0 +1,30 @@
+.error404-widget-wrapper{
+  text-align: center;
+  }
+.error404-widget{
+  min-height: 400px;
+  display: inline-block;
+  background: url("../img/404.png") 0 50% no-repeat;
+  background-size: 300px auto;
+  padding: 0 0 0 320px;
+  line-height: 360px;
+  margin: 48px auto;
+  }
+  .error404-widget .details{
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    }
+  .error404-widget h1{
+    font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+    font-size: 300px;
+    line-height: 300px;
+    color: #333;
+    }
+
+  .error404-widget h2{
+    font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    line-height: 26px;
+    color: #333;
+    }

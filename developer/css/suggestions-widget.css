@@ -1,0 +1,66 @@
+.suggestions-widget{
+  width: 393px;
+  margin: 48px auto;
+  text-align: center;
+  }
+  .suggestions-widget .suggestions-title{
+    font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 24px;
+    }
+  .suggestions-widget textarea{
+    border: 3px solid #ebebed;
+    padding: 15px 30px;
+    font-size: 16px;
+    line-height: 18px;
+    height: 75px;
+    width: 393px;
+    box-sizing: border-box;
+    resize:none;
+    margin: 0 auto 24px;
+    }
+  .suggestions-widget textarea::-webkit-input-placeholder {
+    font-size: 16px;
+    line-height: 18px;
+    color: #D1D1D1;
+    font-family: "PT Sans Italic", Helvetica, Arial, sans-serif;
+    }
+
+  .suggestions-widget textarea:-moz-placeholder { /* Firefox 18- */
+    font-size: 16px;
+    line-height: 18px;
+    color: #D1D1D1;
+    font-family: "PT Sans Italic", Helvetica, Arial, sans-serif;
+    }
+
+  .suggestions-widget textarea::-moz-placeholder {  /* Firefox 19+ */
+    font-size: 16px;
+    line-height: 18px;
+    color: #D1D1D1;
+    font-family: "PT Sans Italic", Helvetica, Arial, sans-serif;
+    }
+
+  .suggestions-widget textarea:-ms-input-placeholder {  
+    font-size: 16px;
+    line-height: 18px;
+    color: #D1D1D1;
+    font-family: "PT Sans Italic", Helvetica, Arial, sans-serif;
+    }
+  .suggestions-widget button{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: #9AC2CB;
+    padding: 0 48px;
+    text-align: center;
+    color: #fff;
+    height: 43px;
+    line-height: 43px;
+    font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+    border-style:none;
+    text-transform: uppercase;
+    font-size: 14px;
+    }

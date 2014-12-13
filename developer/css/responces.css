@@ -1,0 +1,89 @@
+.responces-widget{
+  position: relative;
+  margin: 0 0 48px;
+  }
+  .responces-widget .controls{
+    position: absolute;
+    bottom: 0;
+    font-size: 0;
+    right: 0;
+    white-space: nowrap;
+    }
+    .responces-widget .controls .prev,
+    .responces-widget .controls .next{
+      width: 53px;
+      height: 53px;
+      font-size: 16px;
+      line-height: 53px;
+      color: #FFF;
+      background-color: #bbd6dd;
+      text-align: center;
+      display: inline-block;
+      vertical-align: top;
+      }
+    .responces-widget .controls .next{
+      margin-left: 1px;
+      }
+  .responces-widget .title{
+    text-align: center;
+    line-height: 48px;
+    font-size: 32px;
+    margin: 0 0 48px;
+    font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+    box-shadow:inset 0 23px 0 0 #fff, inset 0 24px 0 0 #d6d6d6;
+    text-transform: uppercase;
+    }
+    .responces-widget .title span{
+      background-color: #FFF;
+      padding: 0 30px;
+      }
+  .responces-widget .slides{
+    font-size: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    max-width: 100%;
+    }
+    .responces-widget .slides article{
+      display: inline-block;
+      vertical-align: top;
+      white-space: normal;
+      font-size: 18px;
+      line-height: 24px;
+      padding: 0 0 101px;
+      }
+      .responces-widget .slides article .details{
+        margin: 24px 0 0;
+        }
+        .responces-widget .slides article .details p{
+          font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+          }
+          .responces-widget .slides article .details time{
+            display: block;
+            position: absolute;
+            bottom: 0;
+            white-space: nowrap;
+            margin: 48px 0 0;
+            line-height: 53px;
+            color: #999;
+            text-transform: uppercase;
+            }
+            .responces-widget .slides article .details time:before{
+              margin-right: 9px;
+              }
+          .responces-widget .slides article .details p.name{
+            text-transform: uppercase;
+            }
+          .responces-widget .slides article .details p.role{
+            text-transform: lowercase;
+            }
+      .responces-widget .slides article img{
+        border-radius: 100%;
+        display: block;
+        width: 210px;
+        height: 210px;
+        margin: 0 auto 48px;
+        }
+      .responces-widget .slides article p{
+        font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+        }

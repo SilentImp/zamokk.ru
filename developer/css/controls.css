@@ -1,0 +1,471 @@
+.toggler-wrapper{
+  display: none;
+  }
+  .toggler-wrapper.open{
+    display: block;
+    margin-bottom: 32px;
+    }
+
+.filter-toggler{
+  display: inline-block;
+  white-space: nowrap;
+  cursor: pointer;
+  }
+  .filter-toggler.open:after{
+    content: '\e812';
+    }
+  .filter-toggler:after{
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+   
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+   
+    font-variant: normal;
+    text-transform: none;
+       
+    line-height: inherit;
+    content: '\e809';
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+    }
+
+.price-switch{
+  position: relative;
+  margin-bottom: 32px;
+  
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  }
+  .price-switch .title{
+    position: relative;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+    margin: 0 0 18px;
+    display: inline-block;
+    }
+  .price-switch.closed{
+    margin-bottom: 0;
+    }
+
+
+.color-switch.color-switch-line{
+  margin: 24px 0;
+  }
+  .color-switch.color-switch-line .wrapper{
+    display: block;
+    overflow: hidden;
+    position: relative;
+    }
+  .color-switch.color-switch-line .title{
+    float: left;
+    width: 120px;
+    color: #333;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+    }
+
+.color-switch{
+  position: relative;
+  margin-bottom: 32px;
+  }
+  .color-switch.closed{
+    margin-bottom: 0;
+    }
+  .color-switch:after{
+    content:".";
+    display: block;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -999px;
+    overflow: hidden;
+    clear: both;
+    }
+  .color-switch .title{
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+    margin: 0 0 18px;
+    }
+  .color-switch .option,
+  .color-switch label,
+  .color-switch .color-item>a{
+    float: left;
+    width: 32px;
+    height: 32px;
+    border-radius:100%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #fff;
+    position: relative;
+    overflow: hidden;
+    /*margin: 0 12px 16px 0;*/
+    }
+    .color-switch .option.white,
+    .color-switch label.white,
+    .color-switch .color-item>a.white{
+      box-shadow: inset 0 0 0 3px #ccc;
+      }
+    .color-switch .option.disabled,
+    .color-switch label.disabled,
+    .color-switch .color-item>a.disabled{
+      pointer-events: none;
+      position: relative;
+      }
+      .color-switch .option.disabled:after,
+      .color-switch label.disabled:after,
+      .color-switch .color-item>a.disabled:after{
+        position: absolute;
+        content:".";
+        text-indent: -999px;
+        overflow: hidden;
+        top: -1px;
+        bottom:-1px;
+        left:-1px;
+        right:-1px;
+        background: url('../img/grid.gif') repeat;
+        background-size: 3px 3px;
+        }
+    .color-switch .option:hover,
+    .color-switch .option.selected,
+    .color-switch label:hover,
+    .color-switch label.selected,
+    .color-switch .color-item>a:hover,
+    .color-switch .color-item>a.selected{
+      border-color:#9ac2cb;
+      }
+    .color-switch label span,
+    .color-switch .option span,
+    .color-switch .color-item>a span{
+      position: absolute;
+      display: block;
+      width: 32px;
+      height: 32px;
+      left: 50%;
+      top: 0;
+      }
+    .color-switch.inputs {
+      overflow: visible;
+      }
+      .color-switch .color-item{
+        display: inline-block;
+        margin: 8px 8px 0 0;
+        position: relative;
+        }
+        .color-switch .color-item:hover .hint-title{
+          visibility: visible;
+          }
+        .color-switch .color-item .hint-title{
+          position: absolute;
+          bottom: 100%;
+          left: -100%;
+          width: 300%;
+          margin-bottom: 6px;
+          color: #333;
+          white-space: nowrap;
+          text-align: center;
+          z-index: 200;
+          line-height: 18px;
+          height: 18px;
+          font-size: 10px;
+          text-transform: uppercase;
+          display: block;
+          visibility: hidden;
+          }
+          .color-switch .color-item .hint-title span{
+            overflow: hidden;
+            text-overflow: ellipsis;
+            position: relative;
+            display: inline-block;
+            border: #ebebeb 1px solid;
+            padding: 0 4px;
+            line-height: 16px;
+            height: 16px;
+            background-color: #FFF;
+            }
+          .color-switch .color-item .hint-title:before{
+            content:".";
+            height: 0;
+            width: 0;
+            line-height: 0;
+            font-size: 0;
+            overflow: hidden;
+            text-indent: -999px;
+            border-width: 5px 5px 0;
+            border-color: #ebebeb transparent transparent;
+            border-style: solid;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            }
+          .color-switch .color-item .hint-title:after{
+            content:".";
+            height: 0;
+            width: 0;
+            line-height: 0;
+            font-size: 0;
+            overflow: hidden;
+            text-indent: -999px;
+            border-width: 5px 5px 0;
+            border-color: #fff transparent transparent;
+            border-style: solid;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            margin-top: -1px;
+            }
+      .color-switch.inputs  .color-item input:checked+label{
+        border-color:#9ac2cb;
+        }
+      .color-switch.inputs  .color-item input{
+        position: absolute;
+        left: -9999px;
+        }
+        .color-switch.inputs .color-item label{
+          margin: 0;
+          cursor: pointer;
+          }
+        .color-switch.inputs .color-item label:before{
+          display: none;
+          }
+
+
+
+.options-switch.options-switch-line{
+  margin: 24px 0;
+  }
+  .options-switch.closed{
+    margin-bottom: 0;
+    }
+  .options-switch.options-switch-line .wrapper{
+    display: block;
+    overflow: hidden;
+    position: relative;
+    }
+    .options-switch.options-switch-line .wrapper a{
+      display: inline-block;
+      white-space: nowrap;
+      font-size: 14px;
+      line-height: 32px;
+      margin-right: 24px;
+      text-transform: uppercase;
+      color: #333;
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      }
+      .options-switch.options-switch-line .wrapper a.disabled{
+        pointer-events: none;
+        color: #ccc;
+        }
+      .options-switch.options-switch-line .wrapper a.selected{
+        font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+        } 
+  .options-switch.options-switch-line .title{
+    float: left;
+    width: 120px;
+    color: #333;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+    }
+
+.categorys-switch.categorys-switch-line{
+  margin: 24px 0;
+  }
+  .categorys-switch.closed{
+    margin-bottom: 0;
+    }
+  .categorys-switch.categorys-switch-line .wrapper{
+    display: block;
+    overflow: hidden;
+    position: relative;
+    }
+    .categorys-switch.categorys-switch-line .wrapper a{
+      display: inline-block;
+      white-space: nowrap;
+      min-width: 240px;
+      padding-right: 20px;
+      }
+  .categorys-switch.categorys-switch-line .title{
+    float: left;
+    width: 120px;
+    color: #333;
+    position: relative;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+    }
+
+.option .search-results{
+  margin-top: 0;
+  }
+.search-results{
+  text-decoration: none;
+  text-transform: none;
+  white-space: nowrap;
+  position: absolute;
+  left: 100%;
+  opacity: 0;
+  transition: opacity .5s;
+  margin: -9px 0 0 20px;
+  text-align: center;
+  z-index: 20;
+  font-size: 12px;
+  line-height: 42px;
+  background-color: #FFF;
+  padding: 0 15px;
+  border:1px solid #ccc;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  }
+  .search-results.show{
+    opacity: 1;
+    }
+  .search-results a{
+    text-decoration: underline;
+    }
+    .search-results a:hover{
+      text-decoration: none;
+      }
+  .search-results:before{
+    border-width: 5px 5px 5px 0;
+    border-color: transparent #ccc transparent transparent;
+    border-style: solid;
+    height: 0;
+    width: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin: -5px 0 0 0;
+    }
+  .search-results:after{
+    border-width: 5px 5px 5px 0;
+    border-color: transparent #fff transparent transparent;
+    border-style: solid;
+    height: 0;
+    width: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin: -5px -1px 0 0;
+    }
+
+.categorys-switch{
+  position: relative;
+  margin-bottom: 32px;
+  }
+  .categorys-switch:first-child .title{
+    margin: 8px 0 18px;
+    }
+  .categorys-switch .title{
+    font-size: 14px;
+    line-height: 24px;
+    color: #333;
+    font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+    margin: 0 0 18px;
+    display: inline-block;
+    position: relative;
+    }
+  .categorys-switch .wrapper{
+    max-height: 290px;
+    overflow: auto;
+    }
+  .categorys-switch .option.title{
+    position: relative;
+    display: inline-block;
+    }
+  .categorys-switch .option:first-child:last-child{
+    font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+    }
+  .categorys-switch .option{
+    cursor: pointer;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 32px;
+    color: #333;
+    position: relative;
+    font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+    }
+    .categorys-switch .option[disabled]{
+      pointer-events: none;
+      color: #ccc;
+      }
+      .categorys-switch .option[disabled]:before{
+        border:1px solid #e6e6e6;
+        }
+    .categorys-switch .option:before{
+
+      content: '\e810';
+      font-family: "fontello";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 11px;
+      speak: none;
+     
+      text-decoration: none;
+      text-align: center;
+     
+      font-variant: normal;
+      text-transform: none;
+         
+      line-height: 20px;
+            
+      overflow: hidden;
+      width: 20px;
+      height: 20px;
+      border:1px solid #98c2cc;
+      vertical-align: middle;
+      display: inline-block;
+      position: relative;
+      top: -2px;
+      margin-right: 8px;
+      text-indent: -9999px;
+      border-radius: 100%;
+      color: #fff;
+      }
+    .categorys-switch .option.selected{
+      color: #333;
+      font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+      cursor: default;
+      }
+      .categorys-switch .option:hover:before,
+      .categorys-switch .option.selected:before{
+        border-color: #98c2cc;
+        background-color: #98C2CC;
+        color: #fff;
+        text-indent: 0;
+        }
+    .categorys-switch .option:hover{
+      color: #333;
+      }
+    .categorys-switch .option.selected:hover:before{
+      background-color: #FFF;
+      text-indent: -999px;
+      }

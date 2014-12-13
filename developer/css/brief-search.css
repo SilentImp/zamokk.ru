@@ -1,0 +1,112 @@
+.brief-search{
+  background-color: #FfF;
+  line-height: 36px;
+  position: absolute;
+  bottom: 0;
+  top: 50px;
+  right: 0;
+  margin: auto;
+  z-index: 50;
+  }
+  .brief-search fieldset{
+    height: 36px;
+    line-height: 107px;
+    }
+  .brief-search label{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    }
+  .brief-search label:after,
+  .brief-search label:before{
+    position: absolute;
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+   
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+   
+    font-variant: normal;
+    text-transform: none;
+       
+    line-height: inherit;
+    width: 30px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    vertical-align: middle;
+    color: #000;
+    font-size: 12px;
+    cursor: pointer;
+    z-index: 101;
+    }
+  .brief-search label:after{
+    content: '\e804';
+    left: 30px;
+    top: 0;
+    line-height: 26px;
+    font-size: 20px;
+    padding-top: 7px;
+    color: #BBD6DD;
+    cursor: pointer;
+    }
+  .brief-search label:before{
+    content: '\e805';
+    left: 3px;
+    top: 0;
+    line-height: 26px;
+    font-size: 20px;
+    padding-top: 5px;
+    cursor: pointer;
+    }
+  .brief-search input{
+    width: 120px;
+    background: none;
+    display: block;
+    border:1px solid #bbd6dd;
+    padding: 0 5px 0 60px;
+    height: 34px;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    appearance: none;
+    transition: width .25s;
+    }
+    .brief-search input::-webkit-input-placeholder {
+      color: #a8a0a0;
+      font-style: italic;
+      }
+    .brief-search input:-moz-placeholder {
+      color: #a8a0a0;
+      font-style: italic;
+      }
+    .brief-search input::-moz-placeholder {
+      color: #a8a0a0;
+      font-style: italic;
+      }
+    .brief-search input:-ms-input-placeholder {  
+      color: #a8a0a0;
+      font-style: italic;
+      }
+    .brief-search input:focus{
+      width: 700px;
+      }
+
+@media (max-width: 960px) {
+  .brief-search{
+    top: 0;
+    }
+  }
+
+
+@media (min-width: 1200px) {
+  .brief-search input{
+    width: 200px;
+    }
+    .brief-search input:focus{
+      width: 870px;
+      }
+  }

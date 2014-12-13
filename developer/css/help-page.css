@@ -1,0 +1,137 @@
+.help-page{
+  }
+  .help-page .help-form-message{
+    display: none;
+    margin: 48px 0;
+    }
+    .help-page .help-form-message p{
+      font-family: "PT Sans Narrow",Helvetica,Arial,sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 24px;
+      line-height: 36px;
+      }
+    .help-page .help-form-message h2{
+      display: block;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 30px;
+      line-height: 36px;
+      font-family: "PT Sans Narrow Bold",Helvetica,Arial,sans-serif;
+      padding-bottom: 24px;
+      margin-bottom: 24px;
+      border-bottom: 1px solid #d6d6d6;
+      }
+  .help-page .help-menu{
+    }
+    .help-page .help-menu a{
+      background-color: #EBEBEB;
+      font-size: 14px;
+      line-height: 48px;
+      display: block;
+      padding: 0 18px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      text-decoration: none;
+      }
+      .help-page .help-menu a:hover,
+      .help-page .help-menu a.selected{
+        text-decoration: underline;
+        }
+      .help-page .help-menu a:hover:before,
+      .help-page .help-menu a:before{
+        float: right;
+        margin-left: 10px;
+        text-decoration: none;
+        }
+      .help-page .help-menu a:nth-child(2n){
+        background-color: #e0e0e0;
+        }
+  .help-page strong{
+    font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+    }
+    .help-page strong:before{
+      content: '\e824';
+      font-family: "fontello";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+
+      display: inline-block;
+      width: 20px;
+      text-decoration: inherit;
+      text-align: center;
+
+      font-variant: normal;
+      text-transform: none;
+
+      line-height: inherit;
+      }
+  .help-page .help-form nav{
+    text-align: center;
+    width: 620px;
+    margin: 48px 0;
+    display: block;
+    position: relative;
+    }
+    .help-page .help-form nav button{
+      padding: 0;
+      border-style: none;
+      width: 235px;
+      text-align: center;
+      background: #9ac2cb;
+      overflow: visible;
+      height: 43px;
+      font-family: "PT Sans Bold",Helvetica,Arial,sans-serif;
+      font-size: 14px;
+      line-height: 43px;
+      text-transform: uppercase;
+      color: #FFF;
+      cursor: pointer;
+      position: relative;
+      }
+  .help-page .help-form fieldset{
+      }
+      .help-page .help-form fieldset label{
+        display: block;
+        margin-bottom: 24px;
+        }
+        .help-page .help-form fieldset.input-fields label textarea{
+          border: 2px solid #ebebeb;
+          display: inline-block;
+          margin: 0;
+          padding: 13px 10px 14px;
+          box-sizing: border-box;
+          font-size: 18px;
+          line-height: 22px;
+          height: 159px;
+          width: 400px;
+          vertical-align: top;
+          resize: none;
+          }
+        .help-page .help-form fieldset.input-fields label input{
+          border: 2px solid #ebebeb;
+          display: inline-block;
+          margin: 0;
+          padding: 13px 10px 14px;
+          box-sizing: border-box;
+          font-size: 18px;
+          line-height: 22px;
+          height: 53px;
+          width: 400px;
+          }
+        .help-page .help-form fieldset label span{
+          text-transform: uppercase;
+          display: inline-block;
+          width: 120px;
+          text-align: right;
+          margin-right: 5px;
+          font-size: 12px;
+          line-height: 53px;
+          vertical-align: middle;
+          font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+          }
+          .help-page .help-form fieldset label span.two-line{
+            line-height: 26px;
+            }

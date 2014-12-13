@@ -1,0 +1,81 @@
+.price-widget{
+  position: relative;
+  pointer-events: none;
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  margin-bottom: 32px;
+  }
+  .price-widget .price-input{
+    margin: 0 0 18px;
+    position: relative;
+    z-index: 1;
+    pointer-events: all;
+    }
+    .price-widget .price-input label{
+      display: inline-block;
+      }
+    .price-widget .price-input input{
+      width: 75px;
+      background: 0 0;
+      display: inline-block;
+      border: 1px solid #bbd6dd;
+      padding: 0 5px;
+      height: 34px;
+      margin: 0;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-appearance: none;
+      appearance: none;
+      -webkit-transition: width .25s;
+      transition: width .25s;
+      }
+  .price-widget .bar{
+    height: 8px;
+    background-color: #d7d4cc;
+    margin: 0 12px 24px;
+    position: relative;
+    }
+    .price-widget .bar .max,
+    .price-widget .bar .min{
+      pointer-events: all;
+      background-color: #e56c69;
+      position: absolute;
+      top: 50%;
+      width: 24px;
+      height: 24px;
+      border-radius: 100%;
+      margin: -12px 0 0 -12px;
+      z-index: 3;
+      cursor: pointer;
+      }
+    .price-widget .bar .min{
+      left: 0;
+      }
+    .price-widget .bar .max{
+      left: 100%;
+      }
+    .price-widget .bar .value{
+      background-color: #bbd6dd;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      }
+  .price-widget .values{
+    position: relative;
+    overflow: hidden;
+    color: #333;
+    font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+    }
+    .price-widget .values .min{
+      float: left;
+      }
+    .price-widget .values .max{
+      float: right;
+      }

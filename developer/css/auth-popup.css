@@ -1,0 +1,168 @@
+.auth-popup{
+  visibility: hidden;
+  margin: auto;
+  width: 980px;
+  position: fixed;
+  top: 20px;
+  bottom: 20px;
+  right: 20px;
+  left: 20px;
+  background-color: #FFF;
+  z-index: -1001;
+  box-shadow: 0 0 0 2000px rgba(0,0,0,.2);
+  overflow: hidden;
+  max-height: 900px;
+  }
+  .auth-popup.show{
+    z-index: 1001;
+    visibility: visible;
+    }
+  .auth-popup .auth-widget form:last-child{
+    margin-left:-1px;
+    }
+  .auth-popup .wrapper{
+    position: absolute;
+    top: 100px;
+    bottom: 24px;
+    right: 24px;
+    left: 24px;
+    overflow: auto;
+    }
+  .auth-popup header{
+    position: relative;
+    height: 100px;
+    padding: 0 20px;
+    }
+    .auth-popup header .title{
+      text-transform: uppercase;
+      font-size: 24px;
+      line-height: 100px;
+      color:#333;
+      font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+      }
+    .auth-popup header .close{
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      line-height: 24px;
+      height: 24px;
+      width: 24px;
+      text-align: center;
+      display: block;
+      z-index: 500;
+      }
+      .auth-popup header .close:after{
+        content:"\E817";
+        font-size: 24px;
+        color: #9ac2cb;
+        vertical-align: middle;
+        }
+
+.auth-widget{
+  margin: auto;
+  background-color: #FFF;
+  position: relative;
+  z-index: 1;
+  }
+  .auth-widget .recover{
+    display: none;
+    }
+  .auth-widget:after{
+    content:".";
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    position: relative;
+    clear: both;
+    text-indent: -9999px;
+    }
+  .auth-widget form:last-child fieldset{
+    margin-right: 0;
+    margin-left: 12px;
+    }
+  .auth-widget form.change-password{
+    width: auto;
+    }
+    .auth-widget form.change-password fieldset{
+      margin-right: 0;
+      margin-left: 0;
+      }
+  .auth-widget form{
+    float: left;
+    width: 50%;
+    padding-bottom: 24px;
+    }
+    .auth-widget form fieldset{
+      border: 1px solid #ebebeb;
+      margin-right: 12px;
+      padding: 24px;
+      }
+      .auth-widget form fieldset label{
+        display: block;
+        margin-bottom: 24px;
+        }
+        .auth-widget form fieldset .input-placeholder{
+          width: 280px;
+          padding-left: 105px;
+          font-size: 12px;
+          line-height: 53px;
+          text-align: center;
+          margin-top: -24px;
+          font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+          text-transform: uppercase;
+          }
+        .auth-widget form fieldset label input{
+          border: 2px solid #ebebeb;
+          display: inline-block;
+          margin: 0;
+          padding: 13px 10px 14px;
+          box-sizing: border-box;
+          font-size: 18px;
+          line-height: 22px;
+          height: 53px;
+          width: 280px;
+          }
+          .auth-widget form fieldset label input.code{
+            width: 560px;
+            }
+        .auth-widget form fieldset label span{
+          text-transform: uppercase;
+          display: inline-block;
+          width: 100px;
+          text-align: right;
+          margin-right: 5px;
+          font-size: 12px;
+          line-height: 53px;
+          vertical-align: middle;
+          font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+          }
+          .auth-widget form fieldset label span.two-line{
+            line-height: 26px;
+            }
+      .auth-widget form fieldset nav a{
+        color: #79AEBA;
+        text-decoration: underline;
+        }
+        .auth-widget form fieldset nav a:hover{
+          text-decoration: none;
+          }
+      .auth-widget form fieldset nav{
+        text-align: center;
+        margin: 48px auto 0;
+        }
+        .auth-widget form fieldset nav button{
+          padding: 0;
+          border-style:none;
+          width: 235px;
+          text-align: center;
+          background: #9ac2cb;
+          overflow: visible;
+          height: 43px;
+          font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          line-height: 43px;
+          text-transform: uppercase;
+          color: #FFF;
+          cursor: pointer;
+          }

@@ -1,0 +1,71 @@
+.order-complete-widget{
+  
+  }
+  .order-complete-widget .message{
+    
+    }
+    .order-complete-widget .message p{
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 24px;
+      line-height: 36px;
+      max-width: 450px;
+      }
+    .order-complete-widget .message h2{
+      display: inline-block;
+      text-transform: uppercase;
+      font-size: 30px;
+      line-height: 36px;
+      font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+      padding-bottom:24px;
+      margin-bottom:24px;
+      border-bottom:1px solid #d6d6d6;
+      }
+      .order-complete-widget .message h2 strong{
+        color: #ff9c00;
+        font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+        }
+  .order-complete-widget .contact{
+
+    }
+    .order-complete-widget .contact h2{
+      text-transform: uppercase;
+      margin-top: 14px;
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 24px;
+      }
+    .order-complete-widget .contact .contacts{
+      position: relative;
+      overflow: hidden;
+      }
+      .order-complete-widget .contact .contacts .phones{
+        float: left;
+        position: relative;
+        overflow: hidden;
+        padding:10px 30px 9px 0;
+        border-right:1px solid #d6d6d6;
+        }
+        .order-complete-widget .contact .contacts .phones a{
+          float: left;
+          clear: left;
+          color: #9AC2CB;
+          font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+          font-size: 24px;
+          line-height: 28px;
+          }
+      .order-complete-widget .contact .contacts .work-hours{
+        float: left;
+        padding:10px 0 9px 30px;
+        font-size: 14px;
+        line-height: 28px;
+        font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+        color: #333;
+        text-transform: uppercase;
+        }
+
+
+
+
+

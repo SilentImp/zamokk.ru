@@ -1,0 +1,14 @@
+.subpage-widget{
+  
+  }
+  .subpage-widget .subpage-menu{
+    
+    }
+  .subpage-widget .subpage{
+    overflow: hidden;
+    display: none;
+    position: relative;
+    }
+  .subpage-widget .subpage.selected{
+    display: block;
+    }

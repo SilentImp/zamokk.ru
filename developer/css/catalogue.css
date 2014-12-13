@@ -1,0 +1,629 @@
+.catalogue-widget{
+  
+  }
+  .reset-filters{
+    color: #414042;
+    font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    text-decoration: underline;
+    display: inline-block;
+    }
+    .reset-filters:after{
+      font-family: "fontello";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+     
+      display: inline-block;
+      text-decoration: inherit;
+      text-align: center;
+     
+      font-variant: normal;
+      text-transform: none;
+         
+      line-height: inherit;
+      content: '\e817';
+      font-size: 24px;
+      text-decoration: none;
+      margin-left: 10px;
+      vertical-align: middle;
+      position: relative;
+      top: -2px;
+      }
+    .reset-filters:hover{
+      text-decoration: none;
+      }
+  .catalogue-widget .goods{
+
+    }
+    .catalogue-widget .goods .items{
+      }
+      .catalogue-widget .goods .items article{
+        position: relative;
+        overflow: hidden;
+        padding: 24px 0;
+        }
+        .catalogue-widget .goods .items article .remove{
+          position: absolute;
+          top: 24px;
+          right: 0;
+          line-height: 19px;
+          height: 19px;
+          width: 19px;
+          text-align: center;
+          display: block;
+          z-index: 500;
+          }
+          .catalogue-widget .goods .items article .remove:after{
+            content:"\E817";
+            font-size: 16px;
+            color: #9ac2cb;
+            vertical-align: middle;
+            }
+      .catalogue-widget .goods .items .row{
+        position: relative;
+        }
+      .catalogue-widget .goods .items .row .loading-scrn.closed{
+        display: none;
+        }
+      .catalogue-widget .goods .items .row .loading-scrn{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 100%);
+        background-repeat: no-repeat;
+        background-size: 100% 200%;
+        background-position:0 -100%;
+        transition: background-position 1.5s;
+        pointer-events: none;
+        z-index: 3;
+        }
+      .catalogue-widget .goods .items .row.loading .loading-scrn{ 
+        cursor: default;
+        pointer-events: none;
+        background-position:0 100%;
+        }
+        .catalogue-widget .goods .items article .controls .price{
+          color: #414042;
+          font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+          font-weight: normal;
+          font-size: 32px;
+          line-height: 36px;
+          }
+          .catalogue-widget .goods .items article .controls .price:after{
+            content: ' \e811';
+            font-family: "fontello";
+            font-style: normal;
+            font-weight: normal;
+            margin-right: 3px;
+            font-size: 17px;
+            speak: none;
+            color: #BEBEBE;
+           
+            display: inline-block;
+            text-decoration: inherit;
+            text-align: center;
+           
+            font-variant: normal;
+            text-transform: none;
+               
+            line-height: inherit;
+            }
+        .catalogue-widget .goods .items article .details .title{
+          color: #414042;
+          font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          }
+        .catalogue-widget .goods .items article .details .kit{
+          color: #9AC2CB;
+          font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          text-transform: lowercase;
+          margin-left: 20px;
+          display: inline-block;
+          }
+          .catalogue-widget .goods .items article .details .kit:before{
+            content: '\e810';
+            font-family: "fontello";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 11px;
+            margin-right: 3px;
+            speak: none;
+           
+            display: inline-block;
+            text-decoration: inherit;
+            text-align: center;
+           
+            font-variant: normal;
+            text-transform: none;
+               
+            line-height: inherit;
+            }
+        .catalogue-widget .goods .items article .details .code{
+          color: #999;
+          font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          }
+        .catalogue-widget .goods .items article .image-container{
+          text-align: center;
+          font-size: 0;
+          line-height: 250px;
+          min-height: 250px;
+          position: relative;
+          }
+          .catalogue-widget .goods .items article .image-container:hover img+.second-image{
+            visibility: visible;
+            }
+          .catalogue-widget .goods .items article .image-container img+.second-image{
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            z-index: 1;
+            visibility: hidden;
+            background-color: #FFF;
+            }
+          .catalogue-widget .goods .items article .image-container img{
+            max-width: 100%;
+            max-height: 100%;
+            vertical-align: middle;
+            display: inline-block;
+            }
+      .catalogue-widget .goods .items article:after{
+        content:".";
+        overflow: hidden;
+        display: block;
+        height: 0;
+        line-height: 0;
+        font-size: 0;
+        text-indent: -9999px;
+        clear: both;
+        }
+      .catalogue-widget .goods .items article .controls .add-to-card{
+        white-space: nowrap;
+        color: #FFF;
+        background-color: #9ac2cb;
+        font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        width: 100%;
+        line-height: 50px;
+        display: block;
+        text-transform: uppercase;
+        cursor: pointer;
+        text-align: center;
+        }
+      .catalogue-widget .goods .items article .controls .in-card{
+        white-space: nowrap;
+        color: #ccc;
+        border: 3px solid #ebebeb;
+        font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        width: 100%;
+        line-height: 44px;
+        height: 50px;
+        display: block;
+        text-transform: uppercase;
+        box-sizing: border-box;
+        cursor: pointer;
+        text-align: center;
+        }
+      .catalogue-widget .goods .items article .controls .configure{
+        white-space: nowrap;
+        color: #FFF;
+        background-color: #333;
+        font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        width: 100%;
+        line-height: 50px;
+        display: block;
+        text-transform: uppercase;
+        cursor: pointer;
+        text-align: center;
+        }
+      .page.compare-blocked .catalogue-widget .goods .items article .compare.comparing{
+        opacity: 1;
+        pointer-events: all;
+        }
+      .catalogue-widget .goods .items article .compare.comparing:before,
+      .catalogue-widget .goods .items article .compare.comparing{
+        color: #000;
+        }
+        .catalogue-widget .goods .items article .compare.comparing:hover:before,
+        .catalogue-widget .goods .items article .compare.comparing:hover{
+          color: #888;
+          }
+      .page.compare-blocked .catalogue-widget .goods .items article .compare{
+        opacity: .25;
+        pointer-events: none;
+        }
+      .catalogue-widget .goods .items article  .compare{
+        white-space: nowrap;
+        display: inline-block;
+        color: #888;
+        font-size: 10px;
+        line-height: 16px;
+        font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0 10px 0 0;
+        }
+        .catalogue-widget .goods .items article .compare:hover:before,
+        .catalogue-widget .goods .items article .compare:hover{
+          color: #000;
+          }
+        .catalogue-widget .goods .items article .compare:before{
+          content: '\E808';
+          font-family: "fontello";
+          font-style: normal;
+          font-weight: normal;
+          line-height: 50px;
+          height: 50px;
+          font-size: 24px;
+          speak: none;
+          vertical-align: middle;
+          color: #7f7f7f;
+         
+          display: block;
+          text-decoration: inherit;
+          text-align: center;
+         
+          font-variant: normal;
+             
+          }
+      .catalogue-widget .goods .items article .favorite{
+        display: inline-block;
+        color: #888;
+        font-size: 10px;
+        line-height: 16px;
+        font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0 0 0 10px;
+        }
+        .catalogue-widget .goods .items article .favorite.loveit:before{
+          content:"\e818";
+          }
+        .catalogue-widget .goods .items article .favorite:hover:before,
+        .catalogue-widget .goods .items article .favorite:hover{
+          color: #000;
+          }
+        .catalogue-widget .goods .items article .favorite:before{
+          content: '\E80C';
+          font-family: "fontello";
+          font-style: normal;
+          font-weight: normal;
+          line-height: 50px;
+          height: 50px;
+          font-size: 24px;
+          vertical-align: middle;
+          speak: none;
+          color: #7f7f7f;
+         
+          display: block;
+          text-decoration: inherit;
+          text-align: center;
+         
+          font-variant: normal;
+             
+          }
+      .catalogue-widget .goods .items article .label{
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-transform: uppercase;
+        line-height: 19px;
+        height: 19px;
+        font-size: 12px;
+        background-color: #e76e67;
+        color: #fff;
+        padding: 0 5px;
+        z-index: 2;
+        }
+      .catalogue-widget .goods .items article .label.type-2{
+        background-color: #8C5D79;
+        }
+      .catalogue-widget .goods .items article .label.type-3{
+        background-color: #DE8650;
+        }
+      .catalogue-widget .goods .items.list{
+        }
+        .catalogue-widget .goods .items.list .row{
+          }
+        .catalogue-widget .goods .items.list article{
+          border-top: 1px solid #ebebeb;
+          width: auto;
+          margin-top: 0;
+          margin-bottom: 0;
+          margin-left: 0;
+          float: none;
+          min-height: 265px;
+          }
+          .catalogue-widget .goods .items.list article.is-kit .price{
+            margin-bottom: 70px;
+            }
+          .catalogue-widget .goods .items.list article .code{
+            display: inline-block;
+            }
+          .catalogue-widget .goods .items.list article .code-wrapper{
+            margin-bottom: 24px;
+            }
+          .catalogue-widget .goods .items.list article .when{
+            display: inline-block;
+            color: #999;
+            font-size: 10px;
+            line-height: 24px;
+            vertical-align: middle;
+            text-transform: uppercase;
+            }
+            .catalogue-widget .goods .items.list article .when time:before{
+              content: ' \e80a';
+              font-family: "fontello";
+              font-style: normal;
+              font-weight: normal;
+              margin-right: 10px;
+              font-size: 20px;
+              vertical-align: middle;
+              speak: none;
+              color: #BEBEBE;
+              position: relative;
+              top: -2px;
+             
+              display: inline-block;
+              text-decoration: inherit;
+              text-align: center;
+             
+              font-variant: normal;
+              text-transform: none;
+                 
+              line-height: inherit;
+              }
+          .catalogue-widget .goods .items.list article .stars{
+            width: 95px;
+            height: 24px;
+            display: inline-block;
+            background: #fff url(../svg/grey-stars.svg) 0 50% no-repeat;
+            background-size: 95px auto;
+            vertical-align: middle;
+            margin-right: 20px;
+            position: relative;
+            top: -3px;
+            }
+            .catalogue-widget .goods .items.list article .stars .value{
+              height: 24px;
+              display: inline-block;
+              background: #fff url(../svg/red-stars.svg) 0 50% no-repeat;
+              background-size: 95px auto;
+              }
+          .catalogue-widget .goods .items.list article .tag{
+            display: inline-block;
+            margin-right: 20px;
+            }
+            .catalogue-widget .goods .items.list article .tag a{
+              text-decoration: underline;
+              }
+              .catalogue-widget .goods .items.list article .tag a:hover{
+                text-decoration: none;
+                }
+          .catalogue-widget .goods .items.list article .kit{
+            position: absolute;
+            display: inline-block;
+            right: 0;
+            top: 83px;
+            }
+          .catalogue-widget .goods .items.list article .options{
+            color: #ccc;
+            }
+            .catalogue-widget .goods .items.list article .options span{
+              color: #9ac2cb;
+              text-decoration: underline;
+              }
+              .catalogue-widget .goods .items.list article .options:hover span{
+                text-decoration: none;
+                }
+          .catalogue-widget .goods .items.list article .details .title{
+            color: #414042;
+            font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 24px;
+            display: inline;
+            border-bottom: #414042 1px solid;
+            }
+            .catalogue-widget .goods .items.list article .details .title:hover{
+              border-bottom-style: none;
+              }
+          .catalogue-widget .goods .items.list article .details .features{
+            font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            margin: 24px 0;
+            list-style: disc;
+            }
+          .catalogue-widget .goods .items.list article .details .abstract{
+            font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            margin: 24px 0;
+            }
+          .catalogue-widget .goods .items.list article .controls .add-to-card,
+          .catalogue-widget .goods .items.list article .controls .configure,
+          .catalogue-widget .goods .items.list article .controls .in-card{
+            font-size: 10px;
+            }
+          .catalogue-widget .goods .items.list article .image-container{
+            position: relative;
+            }
+            .catalogue-widget .goods .items.list article .image-container img{
+              max-height: 265px;
+              }
+        .catalogue-widget .goods .items.list .row:first-child article:first-child{
+          border-top-style: none;
+          }
+      .catalogue-widget .goods .items.grid{
+        }
+        .catalogue-widget .goods .items.grid article{
+          clear: none;
+          margin-top: 0;
+          margin-bottom: 0;
+          height: 500px;
+          text-align: center;
+          }
+          .catalogue-widget .goods .items.grid article .data{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 0 0 40px;
+            background-color: rgba(255,255,255,.95);
+            z-index: 1;
+            }
+            .catalogue-widget .goods .items.grid article:hover .data{
+              padding: 0;
+              }
+          .catalogue-widget .goods .items.grid article .span7,
+          .catalogue-widget .goods .items.grid article .span2,
+          .catalogue-widget .goods .items.grid article .span3,
+          .catalogue-widget .goods .items.grid article .span4{
+            width: auto;
+            margin: 0;
+            float: none;
+            }
+          .catalogue-widget .goods .items.grid article .image-container{
+            position: relative;
+            }
+            .catalogue-widget .goods .items.grid article .image-container img{
+              max-height: 500px;
+              }
+          .catalogue-widget .goods .items.grid article:hover .details{
+            
+            }
+          .catalogue-widget .goods .items.grid article .controls{
+            position: relative;
+            overflow: hidden;
+            }
+          .catalogue-widget .goods .items.grid article .details{
+            padding-top: 80px;
+            position: relative;
+            overflow: hidden;
+            }
+            .catalogue-widget .goods .items.grid article .details .title{
+              margin-bottom: 10px;
+              display: inline;
+              }
+              .catalogue-widget .goods .items.grid article .details .title:hover{
+                border-bottom: #414042 1px solid;
+                }
+            .catalogue-widget .goods .items.grid article .details .code-wrapper{
+              position: absolute;
+              top: 28px;
+              left: 0;
+              right: 0;
+              }
+            .catalogue-widget .goods .items.grid article .details .code,
+            .catalogue-widget .goods .items.grid article .details .kit{
+              display: inline-block;
+              }
+            .catalogue-widget .goods .items.grid article .details .tag,
+            .catalogue-widget .goods .items.grid article .details .options,
+            .catalogue-widget .goods .items.grid article .details .abstract,
+            .catalogue-widget .goods .items.grid article .details .features,
+            .catalogue-widget .goods .items.grid article .details .stars{
+              display: none;
+              }
+            .catalogue-widget .goods .items.grid article:hover .controls .add-to-card,
+            .catalogue-widget .goods .items.grid article:hover .controls .in-card,
+            .catalogue-widget .goods .items.grid article:hover .controls .configure,
+            .catalogue-widget .goods .items.grid article:hover .controls .compare,
+            .catalogue-widget .goods .items.grid article:hover .controls .favorite{
+              display: inline-block;
+              }
+            .catalogue-widget .goods .items.grid article .controls .add-to-card,
+            .catalogue-widget .goods .items.grid article .controls .in-card,
+            .catalogue-widget .goods .items.grid article .controls .configure,
+            .catalogue-widget .goods .items.grid article .controls .compare,
+            .catalogue-widget .goods .items.grid article .controls .favorite{
+              display: none;
+              }
+  .catalogue-widget>.title{
+    margin-bottom:50px;
+    color: #414042;
+    text-transform: uppercase;
+    }
+  .catalogue-widget .sort{
+    overflow: hidden;
+    }
+    .catalogue-widget .sort a{
+      line-height: 49px;
+      font-size: 12px;
+      font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      color: #CBC8C8;
+      border: 2px solid #ebebeb;
+      margin-left: 2px;
+      padding: 0 12px;
+      float: left;
+      }
+      .catalogue-widget .sort a.selected,
+      .catalogue-widget .sort a:hover{
+        color: #414042;
+        background-color: #ebebeb;
+        }
+  .catalogue-widget .view{
+    float: right;
+    }
+    .catalogue-widget .view a{
+      line-height: 49px;
+      height: 49px;
+      width: 49px;
+      text-align: center;
+      font-size: 15px;
+      font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      color: #CBC8C8;
+      border: 2px solid #ebebeb;
+      margin-left: 2px;
+      padding: 0;
+      float: left;
+      }
+      .catalogue-widget .view a.list:before{
+        position: relative;
+        top: -1px;
+        }
+      .catalogue-widget .view a.grid:before{
+        font-size: 18px;
+        }
+      .catalogue-widget .view a:before{
+        vertical-align: middle;
+        line-height: 49px;
+        }
+      .catalogue-widget .view a.selected,
+      .catalogue-widget .view a:hover{
+        color: #414042;
+        background-color: #ebebeb;
+        }
+
+
+@media (max-width: 1199px) {
+  .catalogue-widget .goods .items.grid article{
+    margin-left: 20px;
+    }
+  }

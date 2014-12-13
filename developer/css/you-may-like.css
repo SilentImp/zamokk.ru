@@ -1,0 +1,279 @@
+    .you-may-like{
+      margin: 0 60px;
+      }
+      .you-may-like>.title{
+        text-align: center;
+        line-height: 48px;
+        font-size: 18px;
+        margin: 0 0 48px;
+        font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+        box-shadow:inset 0 23px 0 0 #fff, inset 0 24px 0 0 #d6d6d6;
+        text-transform: uppercase;
+        }
+        .you-may-like>.title span{
+          background-color: #FFF;
+          padding: 0 60px;
+          }
+          .you-may-like article:after{
+            content:".";
+            overflow: hidden;
+            clear: both;
+            height: 0;
+            display: block;
+            font-size: 0;
+            line-height: 0;
+            text-indent: -9999px;
+          }
+
+  .you-may-like>footer{
+    padding: 48px 0 72px;
+    position: relative;
+    overflow: hidden;
+    line-height: 50px;
+    }
+    .you-may-like>footer .continue{
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 50px;
+      vertical-align: middle;
+      float: left;
+      color: #000;
+      text-transform: uppercase;
+      text-decoration: underline;
+      }
+      .you-may-like>footer .continue:hover{
+        text-decoration: none;
+        }
+    .you-may-like>footer button{
+      float: right;
+      white-space: nowrap;
+      color: #FFF;
+      background-color: #9ac2cb;
+      font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      width: 270px;
+      line-height: 50px;
+      display: block;
+      text-transform: uppercase;
+      cursor: pointer;
+      border-style: none;
+      text-align: center;
+      }
+  .you-may-like article{
+    position: relative;
+    border-bottom: 1px solid #ebebeb;
+    padding-top: 48px;
+    }
+    .order-step-1 article:after{
+      content:".";
+      clear: both;
+      display: block;
+      font-size: 0;
+      line-height: 0;
+      height: 0;
+      overflow: hidden;
+      text-indent: -9999px;
+      }
+    .you-may-like article .image-container{
+      width: 100px;
+      text-align: center;
+      display: block;
+      position: relative;
+      vertical-align: top;
+      text-align: center;
+      float: left;
+      left: 100%;
+      margin-left: -100%;
+      z-index: 2;
+      margin-bottom: 48px;
+      }
+    .you-may-like article .details{
+      float: left;
+      position: relative;
+      left: 100%;
+      margin-left: -100%;
+      width: 100%;
+      box-sizing: border-box;
+      padding-left: 144px;
+      overflow: hidden;
+      margin-bottom: 48px;
+      }
+      .you-may-like article .details .info{
+        display: inline-block;
+        vertical-align: top;
+        white-space: normal;
+        float: left;
+        position: relative;
+        left: 100%;
+        width: 100%;
+        margin-left: -100%;
+        padding-right: 460px;
+        box-sizing: border-box;
+        z-index: 1;
+        }
+        .you-may-like article .details .info .code{
+          display: block;
+          color: #666;
+          font-size: 16px;
+          line-height: 24px;
+          font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+          }
+        .you-may-like article .details .info>a{
+          display: inline-block;
+          font-size: 0;
+          }
+        .you-may-like article .details .info>a:before{
+          content:".";
+          height: 46px;
+          width: 1px;
+          margin-left: -1px;
+          display: inline-block;
+          vertical-align: middle;
+          overflow: hidden;
+          line-height: 46px;
+          text-indent: -9999px;
+          }
+        .you-may-like article .details .info a .name{
+          display: inline-block;
+          vertical-align: middle;
+          }
+        .you-may-like article .details .info a .name span{
+          display: inline;
+          border-bottom: 1px solid #414042;
+          
+          }
+          .you-may-like article .details .info a:hover .name span{
+            border-bottom-style: none;
+            }
+        .you-may-like article .details .info .name{
+          display: inline;
+          font-size: 16px;
+          line-height: 24px;
+          font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+          }
+      .you-may-like article .details fieldset{
+        position: relative;
+        float: left;
+        left: 100%;
+        margin-left: -450px;
+        width: 110px;
+        padding-left: 340px;
+        z-index: 2;
+        height: 40px;
+        padding: 7px 0;
+        white-space: nowrap;
+        font-size: 0;
+        }
+        .you-may-like article .details fieldset input{
+          vertical-align: middle;
+          margin: 0 2px;
+          padding: 2px 0 3px;
+          text-align: center;
+          border:2px solid #ebebeb;
+          height: 24px;
+          width: 29px;
+          font-size: 18px;
+          line-height: 24px;
+          }
+        .you-may-like article .details fieldset button{
+          vertical-align: middle;
+          width: 33px;
+          height: 33px;
+          margin: 0;
+          padding: 0;
+          text-align: center;
+          line-height: 33px;
+          font-size: 12px;
+          color: #414042;
+          background: #ebebeb;
+          border-style:none;
+          display: inline-block;
+          }
+      .you-may-like article .details .price{
+        position: relative;
+        float: left;
+        left: 100%;
+        margin-left: -350px;
+        
+        height: 48px;
+        width: 130px;
+        padding-right: 220px;
+        text-align: right;
+        z-index: 3;
+        }
+        .you-may-like article .details .price{
+          color: #414042;
+          font-size: 26px;
+          line-height: 48px;
+          font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+          }
+          .you-may-like article .details .price:after{
+            content: ' \e811';
+            font-family: "fontello";
+            font-style: normal;
+            font-weight: normal;
+            margin-right: 3px;
+            font-size: 14px;
+            speak: none;
+            color: #BEBEBE;
+           
+            display: inline-block;
+            text-decoration: inherit;
+            text-align: center;
+           
+            font-variant: normal;
+            text-transform: none;
+               
+            line-height: inherit;
+            }
+      .you-may-like article nav{
+        position: relative;
+        float: left;
+        left: 100%;
+        margin-left: -170px;
+        width: 170px;
+        height: 50px;
+        z-index: 5;
+        }
+      .you-may-like article .add-to-card{
+        white-space: nowrap;
+        color: #FFF;
+        background-color: #9ac2cb;
+        font-family: "PT Sans", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        width: 100%;
+        line-height: 50px;
+        display: block;
+        text-transform: uppercase;
+        cursor: pointer;
+        text-align: center;
+        }
+      .you-may-like article .in-card{
+        white-space: nowrap;
+        color: #ccc;
+        border: 3px solid #ebebeb;
+        font-family: "PT Sans", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        width: 100%;
+        line-height: 44px;
+        height: 50px;
+        display: block;
+        text-transform: uppercase;
+        box-sizing: border-box;
+        cursor: pointer;
+        text-align: center;
+        }
+      .you-may-like article .configure{
+        white-space: nowrap;
+        color: #FFF;
+        background-color: #333;
+        font-family: "PT Sans", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        width: 100%;
+        line-height: 50px;
+        display: block;
+        text-transform: uppercase;
+        cursor: pointer;
+        text-align: center;
+        }
+

@@ -1,0 +1,37 @@
+html body .page .bred-crumbs-widget{
+  color: #414042;
+  white-space: nowrap;
+  font-size: 0;
+  line-height: 0;
+  }
+  html body .page .bred-crumbs-widget span{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 24px;
+    }
+    html body .page .bred-crumbs-widget span:last-child:hover,
+    html body .page .bred-crumbs-widget span:last-child{
+      text-decoration: none;
+      cursor: default;
+      pointer-events: none;
+      color: #000;
+      font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+      }
+    html body .page .bred-crumbs-widget span:first-child:before{
+      display: none;
+      }
+    html body .page .bred-crumbs-widget span:before{
+      content:" / ";
+      cursor: default;
+      pointer-events: none;
+      font-family: "PT Sans", Helvetica, Arial, sans-serif;
+      }
+    html body .page .bred-crumbs-widget span a{
+      padding: 0;
+      display: inline;
+      }
+    html body .page .bred-crumbs-widget span a:hover{
+      text-decoration: underline;
+      }

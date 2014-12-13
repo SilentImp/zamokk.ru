@@ -1,0 +1,161 @@
+.faq-widget{
+  
+  }
+  .faq-widget form{
+    
+    }
+    .faq-widget form header{
+      margin-bottom: 24px;
+      }
+      .faq-widget form header .faq-widget-title{
+        font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        text-transform: uppercase;
+        }
+      .faq-widget form header p{
+        vertical-align: middle;
+        margin: 0 24px 0 0;
+        display: inline-block;
+        }
+    .faq-widget form fieldset{
+      font-size: 0;
+      }
+      .faq-widget form fieldset button{
+        width: 30%;
+        box-sizing: border-box;
+        font-size: 16px;
+        line-height: 46px;
+        border-style: none;
+        height: 46px;
+        font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFF;
+        background: #bbd6dd;
+        margin: 0;
+        padding: 0;
+        }
+      .faq-widget form fieldset input{
+        width: 30%;
+        box-sizing: border-box;
+        margin:0 5% 0 0;
+        background: none;
+        border:1px solid #ebebeb;
+        line-height: 20px;
+        padding: 13px 15px;
+        height: 46px;
+        font-size: 18px;
+        display: inline-block;
+        }
+      .faq-widget form fieldset textarea{
+        width: 100%;
+        box-sizing: border-box;
+        border:1px solid #ebebeb;
+        padding: 15px 20px;
+        resize: none;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 24px;
+        }
+        .faq-widget form fieldset input::-webkit-input-placeholder {
+          font-size: 18px;
+          line-height: 24px;
+          color: #a8a8a8;
+          font-family: "PT Sans Italic", Helvetica, Arial, sans-serif;
+          }
+
+        .faq-widget form fieldset input:-moz-placeholder {
+          font-size: 18px;
+          line-height: 24px;
+          color: #a8a8a8;
+          font-family: "PT Sans Italic", Helvetica, Arial, sans-serif;
+          }
+
+        .faq-widget form fieldset input::-moz-placeholder {
+          font-size: 18px;
+          line-height: 24px;
+          color: #a8a8a8;
+          font-family: "PT Sans Italic", Helvetica, Arial, sans-serif;
+          }
+
+        .faq-widget form fieldset input:-ms-input-placeholder {
+          font-size: 18px;
+          line-height: 24px;
+          color: #a8a8a8;
+          font-family: "PT Sans Italic", Helvetica, Arial, sans-serif;
+          }
+        .faq-widget form fieldset textarea::-webkit-input-placeholder {
+          font-size: 18px;
+          line-height: 24px;
+          color: #a8a8a8;
+          font-family: "PT Sans Italic", Helvetica, Arial, sans-serif;
+          }
+
+        .faq-widget form fieldset textarea:-moz-placeholder {
+          font-size: 18px;
+          line-height: 24px;
+          color: #a8a8a8;
+          font-family: "PT Sans Italic", Helvetica, Arial, sans-serif;
+          }
+
+        .faq-widget form fieldset textarea::-moz-placeholder {
+          font-size: 18px;
+          line-height: 24px;
+          color: #a8a8a8;
+          font-family: "PT Sans Italic", Helvetica, Arial, sans-serif;
+          }
+
+        .faq-widget form fieldset textarea:-ms-input-placeholder {
+          font-size: 18px;
+          line-height: 24px;
+          color: #a8a8a8;
+          font-family: "PT Sans Italic", Helvetica, Arial, sans-serif;
+          }
+  .faq-widget article{
+    margin: 0 0 48px;
+    max-width: 780px;
+    }
+    .faq-widget article.on-moderation{
+      opacity: 0.25;
+      pointer-events: none;
+      }
+    .faq-widget article .question{
+      margin: 0;
+      font-size: 14px;
+      line-height: 24px;
+      font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+      }
+      .faq-widget article .question+p{
+        margin-top: 0;
+        }
+    .faq-widget article header{
+      margin: 0 0 24px;
+      }
+      .faq-widget article header .name{
+        display: inline-block;
+        width: 295px;
+        margin: 0;
+        font-size: 14px;
+        line-height: 24px;
+        color: #333;
+        }
+        .faq-widget article header .name:before{
+          margin-right: 10px;
+          color: #bbd6dd;
+          }
+      .faq-widget .stars{
+        width: 95px;
+        height: 24px;
+        display: inline-block;
+        background: #fff url(../svg/grey-stars.svg) 0 50% no-repeat;
+        background-size: 95px auto;
+        vertical-align: middle;
+        }
+        .faq-widget .stars .value{
+          height: 24px;
+          display: inline-block;
+          background: #fff url(../svg/red-stars.svg) 0 50% no-repeat;
+          background-size: 95px auto;
+          }

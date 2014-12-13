@@ -1,0 +1,215 @@
+.configure-widget{
+  margin-bottom: 96px;
+  }
+  .configure-widget>nav{
+    text-align: center;
+    }
+    .configure-widget>nav .show-goods{
+      display: inline-block;
+      text-transform: uppercase;
+      width: 270px;
+      height: 48px;
+      background-color: #333;
+      line-height: 48px;
+      font-size: 16px;
+      text-align: center;
+      color: #FFF;
+      font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+      }
+      .configure-widget>nav .show-goods span{
+        color: #999;
+        }
+  .configure-widget>.title{
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 48px;
+    text-transform: uppercase;
+    color: #333;
+    font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+    }
+  .configure-widget .select-element{
+    margin-bottom: 96px;
+    position: relative;
+    }
+    .configure-widget .select-element .options{
+      position: relative;
+      margin-left: 136px;      
+      border-left: 1px solid #ebebeb;
+      padding:0 0 0 48px;
+      font-size: 0;
+      line-height: 96px;
+      min-height: 96px;
+      
+      }
+      .configure-widget .select-element .options .item{
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+        
+        }
+        .configure-widget .select-element .options .item input{
+          position: absolute;
+          left: -9999px;
+          }
+        .configure-widget .select-element .options .item label{
+          display: inline-block;
+          width: 64px;
+          height: 64px;
+          line-height: 64px;
+          position: relative;
+          border: 3px solid #fff;
+          transition: border-color .25s;
+          }
+          .configure-widget .select-element .options .item label .hint-block{
+            pointer-events: none;
+            position: absolute;
+            top: -3px;
+            left: 100%;
+            margin-left: 10px;
+            width: 280px;
+            background-color: #9ac2cc;
+            z-index: 1000;
+            text-align: left;
+            visibility: hidden;
+            }
+            .configure-widget .select-element .options .item label:hover .hint-block{
+              visibility: visible;
+              }
+            .configure-widget .select-element .options .item label .hint-block:before{
+              display: block;
+              position: absolute;
+              right: 100%;
+              top: 24px;
+              content: ".";
+              height: 0;
+              width: 0;
+              text-indent: -9999px;
+              overflow: hidden;
+              font-size: 0;
+              line-height: 0;
+              border-style: solid solid solid none;
+              border-color: transparent #9ac2cc transparent transparent;
+              border-width: 0 24px 18px 0;
+              }
+            .configure-widget .select-element .options .item label .hint-block>.title{
+              color: #FFF;
+              display: block;
+              border-bottom:1px solid #fff;
+              padding: 0 24px;
+              position: relative;
+              overflow: hidden;
+              -ms-text-overflow: ellipsis;
+                  text-overflow: ellipsis;
+              line-height: 60px;
+              height: 60px;
+              text-transform: uppercase;
+              font-size: 16px;
+              font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+              }
+            .configure-widget .select-element .options .item label .hint-block span,
+            .configure-widget .select-element .options .item label .hint-block p{
+              color: #333;
+              font-size: 14px;
+              line-height: 24px;
+              padding: 24px;
+              display: block;
+              font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+              }
+        .configure-widget .select-element .options .item input:checked+label{
+          border-color: #9ac2cc;
+          }
+        .configure-widget .select-element .options .item img{
+          display: block;
+          vertical-align: middle;
+          height: 47px;
+          width: 47px;
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          margin: auto;
+          }
+      .configure-widget .select-element .options .group{
+        display: inline-block;
+        vertical-align: top;
+        margin:0 72px 24px 0;
+        }
+        .configure-widget .select-element .options .group>.title{
+          font-size: 16px;
+          line-height: 48px;
+          margin-left: 12px;
+          text-transform: uppercase;
+          font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+          display: block;
+          }
+    .configure-widget .select-element h2{
+      float: left;
+      height: 96px;
+      width: 106px;
+      padding-right: 30px;
+      line-height: 96px;
+      }
+      .configure-widget .select-element h2 span{
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+        text-transform: uppercase;
+        }
+  .configure-widget .serial-selector{
+    font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+    }
+    .configure-widget .serial-selector:after{
+      content:".";
+      height: 0;
+      overflow: hidden;
+      font-size: 0;
+      line-height: 0;
+      clear: both;
+      text-indent: -9999px;
+      display: block;
+      }
+    .configure-widget .serial-selector .title{
+      float: left;
+      width: 100px;
+      font-size: 14px;
+      line-height: 36px;
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      }
+    .configure-widget .serial-selector .options{
+      position: relative;
+      overflow: hidden;
+      font-size: 0;
+      }
+      .configure-widget .serial-selector .options .line{
+        width: 110px;
+        margin: 0 20px 0 0;
+        display: inline-block;
+        font-size: 14px;
+        line-height: 36px;
+        
+        }
+        .configure-widget .serial-selector .options .line input{
+          position: absolute;
+          left: -9999px;
+          }
+        .configure-widget .serial-selector .options .line input:checked+label{
+          color: #99C2CC;
+          }
+        .configure-widget .serial-selector .options .line label{
+          display: block;
+          cursor: pointer;
+          }
+
+
+
+
+

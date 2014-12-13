@@ -1,0 +1,35 @@
+.faq-widget{
+  margin: 0 0 48px;  
+  }
+  .faq-widget .title{
+    color: #FFF;
+    background-color: #333;
+    font-size: 16px;
+    line-height: 48px;
+    padding: 0 18px;
+    font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+    }
+  .faq-widget nav{
+    }
+    .faq-widget nav a{
+      background-color: #EBEBEB;
+      font-size: 14px;
+      line-height: 48px;
+      display: block;
+      padding: 0 18px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      }
+      .faq-widget nav a:hover{
+        text-decoration: underline;
+        }
+      .faq-widget nav a:hover:before,
+      .faq-widget nav a:before{
+        float: right;
+        margin-left: 10px;
+        text-decoration: none;
+        }
+      .faq-widget nav a:nth-child(2n){
+        background-color: #e0e0e0;
+        }

@@ -1,0 +1,178 @@
+.service-details{
+  
+  }
+  .service-details .tab-widget{
+
+    }
+    .service-details .tab-widget .chapter{
+      display: none;
+      color: #333;
+      }
+      .service-details .tab-widget .chapter h3{
+        text-transform: uppercase;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+        }
+      .service-details .tab-widget .chapter p{
+        font-size: 14px;
+        line-height: 24px;
+        font-family: "PT Sans", Helvetica, Arial, sans-serif;
+        margin-bottom: 24px;
+        }
+    .service-details .tab-widget .chapter.selected{
+      display: block;
+      }
+  .service-details .tab-widget nav{
+    font-size: 0;
+    margin-bottom: 48px;
+    }
+    .service-details .tab-widget a.selected{
+      background-color: #bbd6dd;
+      color: #fff;
+      font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+      }
+    .service-details .tab-widget a{
+      vertical-align: bottom;
+      box-sizing: border-box;
+      display: inline-block;
+      width: 50%;
+      box-shadow: inset -1px 0 0 0 #fff;
+      text-align: center;
+      background-color: #ebebeb;
+      height: 50px;
+      text-transform: uppercase;
+      font-size: 16px;
+      line-height: 50px;
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      text-align: center;
+      }
+  .service-details ul{
+    margin-bottom: 48px;
+    }
+    .service-details ul li{
+      margin-bottom: 24px;
+      color: #414042;
+      }
+  .service-details .code{
+    text-align: center;
+    color: #999;
+    font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 56px;
+    }
+  .service-details .price{
+    margin-top: 24px;
+    color: #414042;
+    font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    }
+    .service-details .price:after{
+      content: ' \e811';
+      font-family: "fontello";
+      font-style: normal;
+      font-weight: normal;
+      margin-right: 3px;
+      font-size: 24px;
+      speak: none;
+      color: #BEBEBE;
+     
+      display: inline-block;
+      text-decoration: inherit;
+      text-align: center;
+     
+      font-variant: normal;
+      text-transform: none;
+         
+      line-height: inherit;
+      }
+  .service-details .add-to-card{
+    white-space: nowrap;
+    color: #FFF;
+    background-color: #9ac2cb;
+    font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width: 100%;
+    line-height: 50px;
+    display: block;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-align: center;
+    }
+  .service-details .duration{
+    color: #999;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    }
+    .service-details time:before{
+      content: ' \e80a';
+      font-family: "fontello";
+      font-style: normal;
+      font-weight: normal;
+      margin-right: 10px;
+      font-size: 20px;
+      vertical-align: middle;
+      speak: none;
+      color: #BEBEBE;
+      position: relative;
+      top: -2px;
+     
+      display: inline-block;
+      text-decoration: inherit;
+      text-align: center;
+     
+      font-variant: normal;
+      text-transform: none;
+         
+      line-height: inherit;
+      }
+  .service-details .service-details-title{
+    font-size: 32px;
+    line-height: 48px;
+    font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    }
+  .service-details .question{
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+    }
+  .service-details .question p{
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    }
+  .service-details .question:before{
+    float: left;
+    content: ' \E81D';
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    width: auto;
+    margin-top: 10px;
+    font-size: 50px;
+    speak: none;
+    color: #000;
+   
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+   
+    font-variant: normal;
+    text-transform: none;
+       
+    line-height: inherit;
+    margin-right: 18px;
+    }
+   .service-details .question b{
+    display: block;
+    font-size: 14px;
+    text-transform: lowercase;
+    }

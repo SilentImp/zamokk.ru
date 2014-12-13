@@ -1,0 +1,83 @@
+.shoping-card-popup{
+  display: none;
+  margin: auto;
+  width: 980px;
+  position: fixed;
+  top: 20px;
+  bottom: 20px;
+  right: 20px;
+  left: 20px;
+  background-color: #FFF;
+  z-index: 1001;
+  box-shadow: 0 0 0 2000px rgba(0,0,0,.2);
+  overflow: hidden;
+  max-height: 900px;
+  }
+  .shoping-card-popup header{
+    position: relative;
+    height: 100px;
+    padding: 0 20px;
+    }
+    .shoping-card-popup header .title{
+      text-transform: uppercase;
+      font-size: 24px;
+      line-height: 100px;
+      color:#333;
+      font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+      }
+    .shoping-card-popup header .close{
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      line-height: 24px;
+      height: 24px;
+      width: 24px;
+      text-align: center;
+      display: block;
+      z-index: 500;
+      }
+      .shoping-card-popup header .close:after{
+        content:"\E817";
+        font-size: 24px;
+        color: #9ac2cb;
+        vertical-align: middle;
+        }
+  .shoping-card-popup .shoping-card-widget{
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: auto;
+    white-space: nowrap;
+    }
+    .shoping-card-popup .shoping-card-widget .goods{
+      margin: 0 60px;
+      }
+      .shoping-card-popup .shoping-card-widget .goods article{
+        border-top: 1px solid #ebebeb;
+        border-bottom-style: none;
+        }
+        .shoping-card-popup .shoping-card-widget .goods article:first-child{
+          border-top-style: none;
+          }
+
+
+@media (min-width: 1200px) {
+  .shoping-card-popup{
+    width: 1190px;
+    }
+  .shoping-card-popup header{
+    padding: 0 30px;
+    }
+    .shoping-card-popup header .close{
+      top: 30px;
+      right: 30px;
+      }
+}
+
+@media (min-width: 1270px) {
+  .shoping-card-popup{
+    width: 1230px;
+    }
+  }

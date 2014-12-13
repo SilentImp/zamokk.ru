@@ -1,0 +1,51 @@
+.tab-widget{
+  display: block;
+  position: relative;
+  clear: both;
+  margin: 24px 0;
+  }
+  .tab-widget>nav{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #ebebeb;
+    }
+    .tab-widget>nav a{
+      text-decoration: none;
+      flex-grow: 1;
+      box-sizing: border-box;
+      text-transform: uppercase;
+      float: left;
+      display: block;
+      width: 25%;
+      text-align: center;
+      box-sizing: border-box;
+      border-left: 1px solid #fff;
+      color: #666;
+      font-size: 14px;
+      height: 48px;
+      line-height: 48px;
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      }
+      .tab-widget>nav a:first-child{
+        border-left-style: none;
+        }
+      .tab-widget>nav a:hover{
+        background-color: #bbd6dd;
+        color: #fff;
+        font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+        }
+      .tab-widget>nav a.selected{
+        pointer-events: none;
+        cursor: default;
+        background-color: #bbd6dd;
+        color: #fff;
+        font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+        }
+    .tab-widget>.chapter{
+      display: none;
+      margin: 24px 0;
+      }
+    .tab-widget>.chapter.selected{
+      display: block;
+      }

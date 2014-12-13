@@ -1,0 +1,271 @@
+.page.header-merge>header{
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border-bottom-style: none;
+  }
+
+.page>header{
+  padding-top:50px;
+  line-height: 107px;
+  position: relative;
+  text-transform: uppercase;
+  font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+  border-bottom: 1px solid #cdcdcd;
+  padding-bottom: 4px;
+  margin-bottom: 32px;
+  }
+  .page>header .row{
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+  .page>header:after{
+    clear: both;
+    content: ".";
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    overflow: hidden;
+    display: block;
+    text-indent: -9999px;
+    }
+  .page>header .logotype{
+    line-height: 107px;
+    font-size: 26px;
+    color: #333;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-family: "Marta", "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+    }
+  .page>header .project{
+    display: inline-block;
+    vertical-align: top;
+    height: 107px;
+    margin-left: -20px;
+    line-height: 107px;
+    font-size: 0;
+    font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+    }
+    .page>header .project .wrapper{
+      display: inline-block;
+      padding-left: 20px;
+      }
+      .page>header .project .wrapper .sub{
+        display: block;
+        background-color: #F0F0F0;
+        color: #333;
+        position: absolute;
+        left: -9999px;
+        width: 100%;
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+        top: 131px;
+        z-index: 551;
+        margin: 0;
+        padding: 48px;
+        font-size: 14px;
+        line-height: 24px;
+        font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+        }
+        .page>header .project .wrapper .sub section{
+          position: relative;
+          overflow: hidden;
+          float: left;
+          }
+        .page>header .project .wrapper .sub section .column{
+          position: relative;
+          overflow: hidden;
+          float: left;
+          width: 150px;
+          }
+        .page>header .project .wrapper .sub section .column .load.disabled,
+        .page>header .project .wrapper .sub section .column .load.disabled:hover{
+          color: #ccc;
+          border: 3px solid #ccc;
+          background: none;
+          cursor: default;
+          pointer-events: none;
+          }
+        .page>header .project .wrapper .sub section .column .load{
+          font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+          color: #a4c8d0;
+          border: 3px solid #a4c8d0;
+          text-decoration: none;
+          line-height: 32px;
+          padding: 0 14px;
+          background: none;
+          white-space: nowrap;
+          }
+          .page>header .project .wrapper .sub section .column .load:hover{
+            color: #FFF;
+            border-color: #a4c8d0;
+            background-color: #a4c8d0;
+            }
+        .page>header .project .wrapper .sub>section.category{
+          width: 250px;
+          }
+        .page>header .project .wrapper .sub>section.brand{
+          width: 300px;
+          }
+        .page>header .project .wrapper .sub>section.fast{
+          width: 250px;
+          }
+          .page>header .project .wrapper .sub>section>nav a{
+            float: left;
+            clear: left;
+            }
+            .page>header .project .wrapper .sub>section>nav a:hover{
+              text-decoration: underline;
+              }
+        .page>header .project .wrapper .sub h3{
+          font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+          }
+      .page>header .project .wrapper:hover>a{
+        box-shadow: 0 13px 0 0 #a4c8d0;
+        }
+    .page>header .project .wrapper>.title{
+      font-size: 16px;
+      vertical-align: middle;
+      display: inline-block;
+      line-height: 36px;
+      color: #333;
+      cursor: pointer;
+      }
+    .page>header .project .wrapper:hover>.title{
+      box-shadow: 0 13px 0 0 #a4c8d0;
+      }
+    .page>header .project .wrapper:hover .sub{
+      left: 0;
+      }
+    .page>header .project .wrapper>.title:after{
+      font-family: "fontello";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+     
+      display: inline-block;
+      text-decoration: inherit;
+      text-align: center;
+     
+      font-variant: normal;
+      text-transform: none;
+         
+      line-height: inherit;
+      margin-left: 5px;
+      content: '\e812';
+      }
+
+@media (max-width: 960px) {
+  .page>header .project .wrapper .sub{
+    top: 81px;
+    }
+  }
+
+
+@media (min-width: 1200px) {
+  .page>header .project .wrapper .sub[data-degradation-level='0']>section.category{
+    width: 250px;
+    }
+  .page>header .project .wrapper .sub[data-degradation-level='0']>section.brend{
+    width: 300px;
+    }
+  .page>header .project .wrapper .sub[data-degradation-level='0']>section.fast{
+    width: 250px;
+    }
+  .page>header .project .wrapper .sub[data-degradation-level='0']>section.add{
+    width: 271px;
+    }
+
+  .page>header .project .wrapper .sub[data-degradation-level='1']>section.category{
+    width: 40%;
+    }
+  .page>header .project .wrapper .sub[data-degradation-level='1']>section.brend{
+    width: 40%;
+    }
+  .page>header .project .wrapper .sub[data-degradation-level='1']>section.fast{
+    width: 20%;
+    }
+  .page>header .project .wrapper .sub[data-degradation-level='1']>section.add{
+    display: none;
+    }
+
+  .page>header .project .wrapper .sub[data-degradation-level='2']>section.category{
+    width: 60%;
+    }
+  .page>header .project .wrapper .sub[data-degradation-level='2']>section.brend{
+    width: 40%;
+    }
+  .page>header .project .wrapper .sub[data-degradation-level='2']>section.fast{
+    display: none;
+    }
+  .page>header .project .wrapper .sub[data-degradation-level='2']>section.add{
+    display: none;
+    }
+
+  .page>header .project .wrapper .sub[data-degradation-level='3']>section.category{
+    width: 100%;
+    }
+  .page>header .project .wrapper .sub[data-degradation-level='3']>section.brend{
+    display: none;
+    }
+  .page>header .project .wrapper .sub[data-degradation-level='3']>section.fast{
+    display: none;
+    }
+  .page>header .project .wrapper .sub[data-degradation-level='3']>section.add{
+    display: none;
+    }
+}
+
+@media (max-width: 1199px) {
+  .page>header .project .wrapper .sub[data-degradation-level='0']>section.category{
+    width: 40%;
+    }
+  .page>header .project .wrapper .sub[data-degradation-level='0']>section.brend{
+    width: 40%;
+    }
+  .page>header .project .wrapper .sub[data-degradation-level='0']>section.fast{
+    width: 20%;
+    }
+  .page>header .project .wrapper .sub>section.add{
+    display: none;
+    }
+
+  .page>header .project .wrapper .sub[data-degradation-level='1']>section.category{
+    width: 40%;
+    }
+  .page>header .project .wrapper .sub[data-degradation-level='1']>section.brend{
+    width: 40%;
+    }
+  .page>header .project .wrapper .sub[data-degradation-level='1']>section.fast{
+    width: 20%;
+    }
+
+  .page>header .project .wrapper .sub[data-degradation-level='2']>section.category{
+    width: 60%;
+    }
+  .page>header .project .wrapper .sub[data-degradation-level='2']>section.brend{
+    width: 40%;
+    }
+  .page>header .project .wrapper .sub[data-degradation-level='2']>section.fast{
+    display: none;
+    }
+
+  .page>header .project .wrapper .sub[data-degradation-level='3']>section.category{
+    width: 100%;
+    }
+  .page>header .project .wrapper .sub[data-degradation-level='3']>section.brend{
+    display: none;
+    }
+  .page>header .project .wrapper .sub[data-degradation-level='3']>section.fast{
+    display: none;
+    }
+  }      
+
+@media (min-width: 1200px) {
+  .page>header .project .wrapper>.title{
+    font-size: 18px;
+    }
+  .page>header .logotype{
+    font-size: 28px;
+    }
+  }

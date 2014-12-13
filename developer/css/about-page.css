@@ -1,0 +1,61 @@
+.about-page{
+  
+  }
+  .about-page .chapter{
+    display: none;
+    }
+  .about-page .chapter.selected{
+    display: block;
+    }
+  .about-page .about-menu{
+    }
+    .about-page .about-menu a{
+      background-color: #EBEBEB;
+      font-size: 14px;
+      line-height: 48px;
+      display: block;
+      padding: 0 18px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      text-decoration: none;
+      }
+      .about-page .about-menu a:hover,
+      .about-page .about-menu a.selected{
+        text-decoration: underline;
+        }
+      .about-page .about-menu a:hover:before,
+      .about-page .about-menu a:before{
+        float: right;
+        margin-left: 10px;
+        text-decoration: none;
+        }
+      .about-page .about-menu a:nth-child(2n){
+        background-color: #e0e0e0;
+        }
+    .about-page strong{
+      font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+      }
+      .about-page strong:before{
+        content: '\e824';
+        font-family: "fontello";
+        font-style: normal;
+        font-weight: normal;
+        speak: none;
+       
+        display: inline-block;
+        width: 20px;
+        text-decoration: inherit;
+        text-align: center;
+       
+        font-variant: normal;
+        text-transform: none;
+           
+        line-height: inherit;
+        }
+      .about-page ul h2{
+        margin: 0;
+        }
+      .about-page ul h3+p{
+        margin: 0 0 18px;
+        }

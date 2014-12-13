@@ -1,0 +1,130 @@
+.manager-hint-widget{
+  width: 200px;
+  position: fixed;
+  left: 0;
+  bottom: 20px;
+  /*right: 50%;*/
+  /*top: 181px;*/
+  top: 38px;
+  background-color: #FFF;
+  z-index: 200;
+  /*margin-right: 500px;*/
+  }
+  .manager-hint-widget>.title{
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #FFF;
+    box-shadow: inset 0 11px 0 0 #fff,
+                inset 0 12px 0 0 #d6d6d6;
+                
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+    }
+    .manager-hint-widget>.title span{
+      background-color: #FFF;
+      padding: 0 15px;
+      }
+  .manager-hint-widget .wrapper{
+    /*max-height: 500px;*/
+    overflow: auto;
+    }
+  .manager-hint-widget article{
+    margin-top: 40px;
+    }
+    .manager-hint-widget article .img-wrapper{
+      text-align: center;
+      font-size: 0;
+      line-height: 0;
+      margin-bottom: 24px;
+      }
+      .manager-hint-widget article .img-wrapper img{
+        display: inline-block;
+        max-width: 100%;
+        }
+    .manager-hint-widget article a:hover .title{
+      border-bottom-style: none;
+      }
+    .manager-hint-widget article .title{
+      font-size: 18px;
+      line-height: 24px;
+      display: inline;
+      border-bottom: #414042 1px solid;
+      
+      text-transform: uppercase;
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      }
+    .manager-hint-widget article .code{
+      color: #999;
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      }
+    .manager-hint-widget article .price{
+      color: #414042;
+      font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 32px;
+      }
+      .manager-hint-widget article .price:after{
+        content: ' \e811';
+        font-family: "fontello";
+        font-style: normal;
+        font-weight: normal;
+        margin-right: 3px;
+        font-size: 17px;
+        speak: none;
+        color: #BEBEBE;
+       
+        display: inline-block;
+        text-decoration: inherit;
+        text-align: center;
+       
+        font-variant: normal;
+        text-transform: none;
+           
+        line-height: inherit;
+        }
+      .manager-hint-widget article .add-to-card{
+        white-space: nowrap;
+        color: #FFF;
+        background-color: #9ac2cb;
+        font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        width: 100%;
+        line-height: 50px;
+        display: block;
+        text-transform: uppercase;
+        cursor: pointer;
+        text-align: center;
+        }
+      .manager-hint-widget article .in-card{
+        white-space: nowrap;
+        color: #ccc;
+        border: 3px solid #ebebeb;
+        font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        width: 100%;
+        line-height: 44px;
+        height: 50px;
+        display: block;
+        text-transform: uppercase;
+        box-sizing: border-box;
+        cursor: pointer;
+        text-align: center;
+        }
+      .manager-hint-widget article .configure{
+        white-space: nowrap;
+        color: #FFF;
+        background-color: #333;
+        font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        width: 100%;
+        line-height: 50px;
+        display: block;
+        text-transform: uppercase;
+        cursor: pointer;
+        text-align: center;
+        }

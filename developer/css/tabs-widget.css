@@ -1,0 +1,201 @@
+.tabs-widget{
+  position: relative;
+  clear: both;
+  margin: 0 0 48px;
+  }
+  .tabs-widget>nav{
+    overflow: hidden;
+    position: relative;
+    background-color: #ebebeb;
+    }
+    .tabs-widget>nav a{
+      text-transform: uppercase;
+      float: left;
+      display: block;
+      width: 25%;
+      text-align: center;
+      box-sizing: border-box;
+      border-left: 1px solid #fff;
+      color: #666;
+      font-size: 16px;
+      height: 48px;
+      line-height: 48px;
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      }
+      .tabs-widget>nav a:first-child{
+        border-left-style: none;
+        }
+      .tabs-widget>nav a:hover{
+        background-color: #bbd6dd;
+        color: #fff;
+        font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+        }
+      .tabs-widget>nav a.selected{
+        pointer-events: none;
+        cursor: default;
+        background-color: #bbd6dd;
+        color: #fff;
+        font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+        }
+  .tabs-widget>section{
+    display: none;
+    }
+  .tabs-widget>section.selected{
+    display: block;
+    }
+    .tabs-widget>section h4.title{
+      color: #333;
+      font-size: 14px;
+      line-height: 32px;
+      font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+      margin-bottom: 0;
+      }
+    .tabs-widget>section table{
+      width: 100%;
+      font-size: 14px;
+      line-height: 32px;
+      margin-bottom: 48px;
+      }
+      .tabs-widget>section table td{
+        padding-left: 10px;
+        vertical-align: bottom;
+        }
+        .tabs-widget>section table td a{
+          color: #99c2cc;
+          text-decoration: underline;
+          }
+          .tabs-widget>section table td a:hover{
+            text-decoration: none;
+            }
+      .tabs-widget>section table td:first-child{
+        width: 240px;
+        padding: 0 20px 0 0;
+        background: linear-gradient(to right, rgba(192,192,192,0) 0%,rgba(192,192,192,0) 50%,rgba(192,192,192,1) 50%,rgba(192,192,192,1) 100%);
+        background-size: 2px 12px;
+        background-repeat: repeat-x;
+        background-position: 0 100%;
+        box-shadow: inset 0 -11px 0 0 #fff;
+        text-transform: uppercase;
+        font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+        }
+        .tabs-widget>section table td:first-child .wrapper{
+          display: inline;
+          background-color: #FFF;
+          padding-right: 10px;
+          }
+    .tabs-widget>section h4{
+      font-family: "PT Sans Narrow Bold",Helvetica,Arial,sans-serif;
+      margin: 0;
+      }
+    .tabs-widget>section.service .certificate{
+      text-align: center;
+      font-size: 0;
+      line-height: 0;
+      }
+    .tabs-widget>section.service .certificate img{
+      display: inline-block;
+      width: 210px;
+      vertical-align: top;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      }
+    .tabs-widget>section h4+p{
+      margin-top: 0;
+      }
+    .tabs-widget>section p{
+      font-size: 14px;
+      line-height: 24px;
+      margin: 24px 0;
+      }
+    .tabs-widget>section .title{
+      margin-bottom: 24px;
+      }
+    .tabs-widget>section .group{
+      margin: 0 0 48px;
+      }
+    .tabs-widget>section .file-list{
+      font-size: 0;
+      }
+      .tabs-widget>section .file-list .label{
+        display: inline-block;
+        background-color: #ff9c00;
+        color: #FFf;
+        font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+        padding: 0 5px;
+        line-height: 18px;
+        min-width: 20px;
+        text-align: center;
+        }
+        .tabs-widget>section .file-list .label.type-2{
+          background-color: #e76d66;
+          }
+      .tabs-widget>section .file-list li{
+        margin-top: 30px;
+        font-size: 14px;
+        line-height: 18px;
+        }
+        .tabs-widget>section .file-list li .size{
+          color: #ccc;
+          font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+          }
+        .tabs-widget>section .file-list li a{
+          text-decoration: underline;
+          }
+          .tabs-widget>section .file-list li a:hover{
+            text-decoration: none;
+            }
+    .tabs-widget>section .pictures{
+      font-size: 0;
+      }
+      .tabs-widget>section .pictures a{
+        width: 200px;
+        height: 200px;
+        line-height: 200px;
+        text-align: center;
+        display: inline-block;
+        vertical-align: bottom;
+        border:1px solid #ebebeb;
+        position: relative;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        }
+        .tabs-widget>section .pictures a:after{
+          content: '\e813';
+          font-family: "fontello";
+          font-style: normal;
+          font-weight: normal;
+          speak: none;
+         
+          display: block;
+          text-decoration: inherit;
+          text-align: center;
+         
+          font-variant: normal;
+          text-transform: none;
+          
+          font-size: 14px;
+          line-height: 60px;
+          height: 60px;
+          width: 60px;
+          
+          background-color: #bbd6df;
+          color: #fff;
+          
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          visibility: hidden;
+          }
+        .tabs-widget>section .pictures a:hover:after{
+          visibility: visible;
+          }
+        .tabs-widget>section .pictures a img{
+          vertical-align: middle;
+          max-width: 100%;
+          max-height: 100%;
+          }
+
+
+
+
+

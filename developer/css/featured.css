@@ -1,0 +1,82 @@
+.featured-widget{
+  max-width: 271px;
+  }
+  .featured-widget .illustration{
+    display: block;
+    }
+  .featured-widget .title{
+    color: #333;
+    font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    white-space: normal;
+    vertical-align: top;
+    width: 100%;
+    padding: 0 43px 0 0;
+    box-sizing: border-box;
+    }
+  .featured-widget .slides{
+    font-size: 0;
+    line-height: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    }
+  .featured-widget .slide{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+    white-space: nowrap;
+    margin-right: 1px;
+    }
+    .featured-widget .slide img{
+      display: block;
+      margin: 0 0 10px;
+      }
+  .featured-widget .open{
+    display: inline-block;
+    vertical-align: top;
+    width: 29px;
+    height: 29px;
+    border-radius: 100%;
+    border: 2px solid #333;
+    color: #333;
+    text-align: center;
+    line-height: 29px;
+    font-size: 18px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    margin-left: -33px;
+    }
+    .featured-widget .open:before{
+      vertical-align: middle;
+      font-size: 18px;
+      margin: -2px -3px 0 0;
+      padding: 0;
+      line-height: 29px;
+      width: auto;
+      font-weight: bold;
+      }
+  .featured-widget .controls{
+    clear: both;
+    margin: 24px 0 0;
+    font-size: 0;
+    float: right;
+    white-space: nowrap;
+    }
+    .featured-widget .controls .prev,
+    .featured-widget .controls .next{
+      width: 53px;
+      height: 53px;
+      font-size: 16px;
+      line-height: 53px;
+      color: #FFF;
+      background-color: #bbd6dd;
+      text-align: center;
+      display: inline-block;
+      vertical-align: top;
+      }
+    .featured-widget .controls .next{
+      margin-left: 1px;
+      }

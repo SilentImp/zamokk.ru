@@ -1,0 +1,41 @@
+.about-item{
+  margin: 0 0 96px;
+  }
+  .about-item a{
+    color: #79aeba;
+    text-decoration: underline;
+    }
+    .about-item a:hover{
+      text-decoration: none;
+      }
+  .about-item .window{
+    }
+    .about-item .window h1{
+      color: #333;
+      font-size: 48px;
+      line-height: 48px;
+      margin-bottom: 24px;
+      }
+    .about-item .window p{
+      font-size: 14px;
+      line-height: 24px;
+      font-family: "PT Sans", Helvetica, Arial, sans-serif;
+      }
+  .about-item .windows{
+    margin-top: 48px;
+    }
+    .about-item .windows img{
+      display: block;
+      margin-bottom: 24px;
+      }
+    .about-item .windows h2{
+      text-transform: uppercase;
+      font-size: 16px;
+      line-height: 24px;
+      font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+      }
+    .about-item .windows p{
+      font-size: 14px;
+      line-height: 24px;
+      font-family: "PT Sans", Helvetica, Arial, sans-serif;
+      }

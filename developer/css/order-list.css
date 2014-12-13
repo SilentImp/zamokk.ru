@@ -1,0 +1,426 @@
+.order-list{
+  position: relative;
+  overflow: hidden;
+  padding-top: 24px;
+  }
+  .order-list .order .order-step-1 .goods article{
+    border-bottom-style: none;
+    }
+  .order-list .order.closed .order-details{
+    display: none;
+    }
+  .page .order-list .order .order-details.order-step-1 .goods article .details .price{
+    width: 160px;
+    margin-left: -160px;
+    text-align: left;
+    }
+  .order-list .order .order-details .manager{
+    color: #656565;
+    font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+    }
+    .order-list .order .order-details .manager .name{
+      font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+      }
+    .order-list .order .order-details .manager a{
+      color: #656565
+      }
+      .order-list .order .order-details .manager .email{
+        text-decoration: underline;
+        }
+        .order-list .order .order-details .manager .email:hover{
+          text-decoration: none;
+          }
+  .order-list .order-details a.approve{
+    text-align: center;
+    box-sizing: border-box;
+    height: 48px;
+    display: block;
+    font-size: 12px;
+    line-height: 48px;
+    text-transform: uppercase;
+    margin-left: 18px;
+    
+    background-color: #9ac2cb;
+    border-color: #9ac2cb;
+    color: #fff;
+    }
+    .order-list .order-details a.approve:hover{
+      background-color: #79aeba;
+      }
+    .order-list .order-details .approve.selected{
+      background-color: #79aeba;
+      }
+  .order-list .order-details a.cancel{
+    background-color: #ebebeb;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+    color: #666;
+    font-size: 14px;
+    line-height: 48px;
+    height: 48px;
+    font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+    }
+    .order-list .order-details a.cancel:hover{
+      background-color: #bbd6dd;
+      color: #fff;
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      }
+    .order-list .order-details .cancel.selected{
+      pointer-events: none;
+      cursor: default;
+      background-color: #bbd6dd;
+      color: #fff;
+      font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+      }
+  .order-list .order .progress{
+    font-size: 0;
+    line-height: 8px;
+    height: 8px;
+    background-color: #D7D4CB;
+    white-space: nowrap;
+    margin-bottom: 48px;
+    z-index: 2;
+    margin-top: 20px;
+    }
+    .order-list .order .progress .step{
+      display: inline-block;
+      width: 16.66667%;
+      background-color: #D7D4CB;
+      position: relative;
+      height: 8px;
+      }
+    .order-list .order .progress .step b{
+      position: absolute;
+      right: -40%;
+      width: 80%;
+      top: 100%;
+      color: #ccc;
+      margin-top: 18px;
+      font-size: 10px;
+      line-height: 18px;
+      text-align: center;
+      white-space: normal;
+      text-transform: uppercase;
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      }
+      .order-list .order .progress .step.done{
+        background-color: #bbd6dd;
+        }
+      .order-list .order .progress .step.done:after{
+        background-color: #bbd6dd;
+        }
+      .order-list .order .progress .step:after{
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        right: -12px;
+        top: -8px;
+        display: block;
+        content: ".";
+        background-color: #D7D4CB;
+        border-radius: 100%;
+        z-index: 2;
+        }
+      .order-list .order .progress .step.current b{
+        color: #333;
+        }
+      .order-list .order .progress .step.current:after{
+        background-color: #e56c69;
+        }
+  .order-list .order:first-child{
+    border-top-style: none;
+    }
+  .order-list .order{
+    position: relative;
+    border-top: 1px solid #ebebeb;
+    }
+    .order-list .order .order-details .item.main-item .abstract .code{
+      display: inline-block;
+      vertical-align: top;
+      width: 110px;
+      font-size: 16px;
+      }
+    .order-list .order .order-details .item.main-item .abstract .articul{
+      vertical-align: top;
+      display: inline;
+      font-size: 16px;
+      }
+    .order-list .order.processing{
+      
+      }
+      .order-list .order.grade header .details .bill,
+      .order-list .order.processed header .details .bill,
+      .order-list .order.processed header .details .delivery,
+      .order-list .order.processing .manager,
+      .order-list .order.processing header .details .bill,
+      .order-list .order.processing header .details .delivery,
+      .order-list .order.processing .term{
+        display: none;
+        }
+      .order-list .order.canceled .cancel,
+      .order-list .order.complete .cancel,
+      .order-list .order.canceled .approve,
+      .order-list .order.accepted .approve,
+      .order-list .order.grade .approve,
+      .order-list .order.delivery .approve,
+      .order-list .order.complete .approve,
+      .order-list .order.processing .approve{
+        pointer-events: none;
+        text-align: center;
+        box-sizing: border-box;
+        height: 48px;
+        display: block;
+        border-left:1px solid #fff;
+        font-size: 12px;
+        line-height: 48px;
+        text-transform: uppercase;
+        box-shadow: inset 0 0 0 2px #ebebeb;
+        color: #ccc;
+        margin-left: 18px;
+        background: #FFF;
+        }
+      .order-list .order.canceled .cancel,
+      .order-list .order.complete .cancel{
+        margin-left: 0;
+        }
+    .order-list .order .toggle{
+      width: 47px;
+      height: 47px;
+      position: absolute;
+      left: 0;
+      top: 15px;
+      display: block;
+      z-index: 100;
+      cursor: pointer;
+      }
+    .order-list .order.closed .toggle:before{
+      content:"\E812";
+      }
+    .order-list .order.canceled .toggle:before{
+      color: #EBEBEB;
+      border-color: #EBEBEB;
+      }
+    .order-list .order.open .toggle:before{
+      content:"\E809";
+      color: #EBEBEB;
+      border-color: #EBEBEB;
+      line-height: 40px;
+      }
+    .order-list .order .toggle:before{
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      content:"\E812";
+      display: block;
+      color: #9ac2cb;
+      border: 3px solid #9ac2cb;
+      text-align: center;
+      line-height: 47px;
+      font-size: 24px;
+      overflow: hidden;
+      
+      font-family: "fontello";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+     
+      text-decoration: inherit;
+      text-decoration: none;
+      text-align: center;
+     
+      font-variant: normal;
+      text-transform: none;
+      }
+    .order-list .order.canceled{
+      color: #CBC8C8;
+      }
+      .order-list .order.canceled .details,
+      .order-list .order.canceled .details .price,
+      .order-list .order.canceled .details .delivery,
+      .order-list .order.canceled .details .unpayed,
+      .order-list .order.canceled .number{
+        color: #CBC8C8;
+        }
+    .order-list .order header{
+      position: relative;
+      overflow: hidden;
+      padding: 15px 160px 15px 90px;
+      min-height: 85px;
+      }
+      .order-list .order header .number{
+        display: inline-block;
+        width: 300px;
+        margin-right: 15px;
+        font-size: 14px;
+        line-height: 24px;
+        color: #656565;
+        font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+        }
+        .order-list .order header .number b{
+          font-size: 16px;
+          font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+          }
+          
+      .order-list .order.accepted header .state b,
+      .order-list .order.processed header .state b,
+      .order-list .order.processing header .state b,
+      .order-list .order.delivery header .state b,
+      .order-list .order.grade header .state b{
+        color: #98C2CC;
+        }
+      .order-list .order header .state{
+        font-size: 13px;
+        display: inline-block;
+        font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+        }
+        .order-list .order header .state b{
+          text-transform: uppercase;
+          font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+          }
+      .order-list .order header .receipt{
+        display: inline-block;
+        width: 300px;
+        color: #9AC2CB;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+        text-decoration: underline;
+        }
+        .order-list .order header .receipt:hover{
+          text-decoration: none;
+          }
+      .order-list .order header .term{
+        margin-right: 15px;
+        display: inline-block;
+        width: 300px;
+        color: #9AC2CB;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+        }
+        .order-list .order header .term:before{
+          content:"\E80A";
+          display: inline-block;
+          color: #9ac2cb;
+          text-align: center;
+          line-height: 24px;
+          font-size: 16px;
+          overflow: hidden;
+          vertical-align: middle;
+          margin-right: 3px;
+          margin-top: -5px;
+          
+          font-family: "fontello";
+          font-style: normal;
+          font-weight: normal;
+          speak: none;
+         
+          text-decoration: inherit;
+          text-align: center;
+         
+          font-variant: normal;
+          text-transform: none;
+          }
+        .order-list .order header .term b{
+          font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+          }
+      .order-list .order header .details{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding: 15px 0;
+        width: 160px;
+        }
+        .order-list .order header .details .bill{
+          font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+          color: #9AC2CB;
+          font-size: 16px;
+          height: 48px;
+          line-height: 48px;
+          position: relative;
+          display: block;
+          }
+          .order-list .order header .details .bill b{
+            text-decoration: underline;
+            }
+        .order-list .order header .details .unpayed:before,
+        .order-list .order header .details .payed:before,
+        .order-list .order header .details .bill:before{
+          content:"\E81F";
+          display: inline-block;
+          color: inherit;
+          text-align: center;
+          line-height: 48px;
+          font-size: 16px;
+          overflow: hidden;
+          vertical-align: middle;
+          margin-right: 5px;
+          margin-top: -2px;
+          
+          font-family: "fontello";
+          font-style: normal;
+          font-weight: normal;
+          speak: none;
+         
+          text-decoration: inherit;
+          text-align: center;
+         
+          font-variant: normal;
+          text-transform: none;
+          }
+          .order-list .order header .details .bill:hover b{
+            text-decoration: none;
+            }
+        .order-list .order header .details .payed{
+          position: relative;
+          font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+          color: #656565;
+          font-size: 16px;
+          line-height: 48px;
+          }
+        .order-list .order header .details .unpayed{
+          position: relative;
+          font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+          color: #656565;
+          font-size: 16px;
+          line-height: 48px;
+          }
+        .order-list .order header .details .delivery{
+          font-size: 12px;
+          line-height: 12px;
+          margin-top: -4px;
+          color: #969696;
+          }
+        .order-list .order header .details .price{
+          color: #414042;
+          font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 24px;
+          }
+          .order-list .order header .details .price:after{
+            content: ' \e811';
+            font-family: "fontello";
+            font-style: normal;
+            font-weight: normal;
+            margin-right: 3px;
+            font-size: 14px;
+            speak: none;
+            color: #BEBEBE;
+           
+            display: inline-block;
+            text-decoration: inherit;
+            text-align: center;
+           
+            font-variant: normal;
+            text-transform: none;
+               
+            line-height: inherit;
+            }

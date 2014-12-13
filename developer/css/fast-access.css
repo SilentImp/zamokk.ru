@@ -1,0 +1,115 @@
+.fast-access{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: #FFF;
+  z-index: 1000;
+  text-transform: uppercase;
+  font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+  }
+  .fast-access .wrapper{
+    margin: auto;
+    width: 940px;
+    border-bottom:1px solid #cdcdcd;
+    height: 49px;
+    line-height: 49px;
+    }
+  .fast-access .row{
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+  .fast-access .profile{
+    color:#333;
+    text-align: right;
+    }
+    .fast-access .profile a{
+      margin: 0 0 0 30px;
+      }
+      .fast-access .profile a:hover .label{
+        text-decoration: underline;
+        }
+    .fast-access .profile .private strong{
+      text-decoration: underline;
+      font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+      }
+      .fast-access .profile .private:hover strong{
+        text-decoration: none;
+        }
+    .fast-access .profile .login:before,
+    .fast-access .profile .card:before{
+      margin-right: 3px;
+      }
+    .fast-access .profile .card:after{
+      margin-left: 5px;
+      content: '\e812';
+      }
+    .fast-access .profile .card{
+      white-space: nowrap;
+      }
+    .fast-access .profile .card .count{
+      display: inline-block;
+      background-color: #ff9c00;
+      width: 24px;
+      height: 24px;
+      border-radius: 100%;
+      text-align: center;
+      line-height: 24px;
+      color: #fff;
+      font-size: 12px;
+      margin: 0 6px;
+      }
+  .fast-access .service{
+    font-size: 0;
+    }
+    .fast-access .service a{
+      text-decoration: underline;
+      color: #333;
+      font-size: 14px;
+      margin-left: 20px;
+      }
+      .fast-access .service a:first-child{
+        margin-left: 0;
+        }
+      .fast-access .service a:hover{
+        text-decoration: none;
+        }
+  .fast-access .tel{
+    float: left;
+    white-space: nowrap;
+    font-family: "PT Sans Narrow Bold";
+    font-size: 20px;
+    }
+
+@media (min-width: 1200px) {
+  .fast-access .wrapper{
+    width: 1170px;
+    }
+}
+
+@media (min-width: 1770px) {
+  .manager-view .fast-access{
+    left: 280px;
+    right: auto;
+    }
+}
+
+
+@media (max-width: 960px) {
+  html .page>header{
+    padding-top: 0;
+    }
+  .fast-access{
+    position: relative;
+    }
+  .fast-access .wrapper{
+    width: auto;
+    }
+  .fast-access .wrapper .row .span5,
+  .fast-access .wrapper .row .span3{
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+    }
+}

@@ -1,0 +1,56 @@
+.page>footer{
+  font-family: "PT Sans Narrow";
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 24px;
+  border-top: 1px solid #cecece;
+  color: #000;
+  }
+  .page>footer.contacts{
+    clear: both;
+    }
+  .page>footer.contacts .logotype{
+    font-family: "Marta", "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    white-space: nowrap;
+    }
+  .page>footer.contacts .email a:hover{
+    text-decoration: underline;
+    }
+  .page>footer.contacts nav a{
+    float: left;
+    clear: left;
+    }
+    .page>footer.contacts nav a:hover{
+      text-decoration: underline;
+      }
+  .page>footer.contacts .tel{
+    white-space: nowrap;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: "PT Sans Narrow Bold";
+    }
+  .page>footer.contacts .email{
+    margin: 24px 0 0;
+    }
+  .page>footer .cards{
+    margin: 48px 0 0;
+    }
+  .page>footer.legal{
+    line-height: 46px;
+    }
+  .page>footer.legal nav{
+    text-align: right;
+    }
+    .page>footer.legal nav a:first-child:before{
+      display: none;
+      }
+    .page>footer.legal nav a:hover{
+      text-decoration: underline;
+      }
+    .page>footer.legal nav a:before{
+      content:"|";
+      margin: 0 10px;
+      pointer-events: none;
+      cursor: default;
+      }

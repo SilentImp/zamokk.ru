@@ -1,0 +1,62 @@
+.fast-widget{
+  min-height: 75px;
+  position: relative;
+  margin: 32px 0;
+  }
+  .fast-widget-wrapper{
+    position: relative;
+    }
+  .fast-widget .more{
+    margin: 30px 0 55px;
+    } 
+  .fast-widget .fast-widget-title{
+    width: 74px;
+    height: 48px;
+    padding: 12px 0;
+    border-right: #ebebeb 1px solid;
+    vertical-align: middle;
+    display: inline-block;
+    color: #333;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    white-space: normal;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    }
+    .fast-widget .fast-widget-title strong{ 
+      font-size: 36px;
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      }
+  .fast-widget nav{
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    color:#333;
+    white-space: normal;
+    margin: 0 0 0 74px;
+    padding: 0 0 0 20px;
+    border-left: #ebebeb 1px solid;
+    }
+    .fast-widget nav .line{
+      display: inline;
+      position: relative;
+      transition: opacity .65s;
+      }
+      .fast-widget nav .line.loading{
+        opacity: 0;
+        }
+    .fast-widget nav a{
+      text-decoration: underline;
+      margin: 0 40px 0 0;
+      font-size: 14px;
+      line-height: 24px;
+      white-space: nowrap;
+      }
+      .fast-widget nav a:hover{
+        text-decoration: none;
+        }

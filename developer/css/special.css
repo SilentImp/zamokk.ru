@@ -1,0 +1,172 @@
+.special-widget{
+  position: relative;
+  }
+  .special-widget .controls.disabled,
+  .special-widget .controls[disabled]{
+    opacity: 0;
+    pointer-events: none;
+    }
+  .special-widget .controls{
+    transition: opacity .25s;
+    opacity: 1;
+    position: fixed;
+    right: 1px;
+    top: 0;
+    bottom: 0;
+    height: 107px;
+    margin: auto;
+    z-index: 100;
+    }
+    .special-widget .controls .next,
+    .special-widget .controls .prev{
+      display: block;
+      width: 53px;
+      height: 53px;
+      line-height: 53px;
+      margin: 0 0 1px;
+      background-color: #BBD6DD;
+      cursor: pointer;
+      text-align: center;
+      color: #FFF;
+      }
+    .special-widget .controls .next:before,
+    .special-widget .controls .prev:before{
+      font-family: "fontello";
+      font-style: normal;
+      font-weight: bold;
+      speak: none;
+     
+      display: inline-block;
+      text-decoration: inherit;
+      vertical-align: middle;
+      text-align: center;
+     
+      font-variant: normal;
+      text-transform: none;
+         
+      line-height: inherit;
+      }
+    .special-widget .controls .next:before{
+      content: '\e801';
+      }
+    .special-widget .controls .prev:before{
+      content: '\e807';
+      }
+  .special-widget article{
+    margin-top: 1px;
+    max-height: 480px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    color: #333;
+    }
+    .special-widget article .loading-scrn.closed{
+      display: none;
+      }
+    .special-widget article .loading-scrn{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 100%);
+      background-repeat: no-repeat;
+      background-size: 100% 200%;
+      background-position:0 -100%;
+      transition: background-position 1.5s;
+      pointer-events: none;
+      }
+    .special-widget article.loading .loading-scrn{ 
+      cursor: default;
+      pointer-events: none;
+      background-position:0 100%;
+      }
+    .special-widget article.bottom .details{
+      top: auto;
+      left: 40px;
+      right: 40px;
+      text-align: center;
+      bottom: 27px;
+      display: inline-block;
+      transform: none;
+      }
+      .special-widget article.bottom .details .open{
+        vertical-align: middle;
+        position: absolute;
+        }
+      .special-widget article.bottom .details nav{
+        display: inline-block;
+        vertical-align: middle;
+        text-transform: uppercase;
+        font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+        font-size: 0;
+        line-height: 33px;
+        }
+        .special-widget article.bottom .details nav a{
+          margin-right: 25px;
+          font-size: 18px;
+          color: #333;
+          vertical-align: middle;
+          }
+    .special-widget article.dark .details a,
+    .special-widget article.dark .details{
+      color: #FFF;
+      }
+      .special-widget article.dark .details .open{
+        border-color: #FFF;
+        }
+    .special-widget article .details{
+      display: table;
+      vertical-align: middle;
+      height: auto;
+      width: auto;
+      position: absolute;
+      top:50%; 
+      left:40px; 
+      transform:translate(0, -50%);
+      margin: auto;
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      }
+      .special-widget article .details .title{
+        text-transform: uppercase;
+        font-size: 48px;
+        line-height: 48px;
+        margin: 0 0 24px;
+        font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+        }
+      .special-widget article .details p{
+        font-size: 18px;
+        line-height: 24px;
+        margin: 0 0 24px;
+        }
+      .special-widget article .details .open{
+        width: 29px;
+        height: 29px;
+        border-radius: 100%;
+        border: 2px solid #333;
+        color: #333;
+        text-align: center;
+        line-height: 29px;
+        font-size: 18px;
+        overflow: hidden;
+        position: relative;
+        display: inline-block;
+        }
+        .special-widget article .details .open:before{
+          vertical-align: middle;
+          font-size: 18px;
+          margin: -2px -3px 0 0;
+          padding: 0;
+          line-height: 29px;
+          width: auto;
+          font-weight: bold;
+          }
+    .special-widget article img{
+      display: block;
+      width: 100%;
+      }
+    .special-widget article:first-child{
+      margin-top: 0;
+      }

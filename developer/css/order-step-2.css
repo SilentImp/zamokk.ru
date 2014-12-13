@@ -1,0 +1,203 @@
+.order-step-2{
+  display: none;
+  }
+  .order-step-2 .input-sets fieldset{
+    display: none;
+    }
+  .order-step-2 .input-sets fieldset.selected{
+    display: block;
+    }
+  .order-step-2 .title{
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 48px;
+    
+    }
+  .order-step-2 .login{
+    border:1px solid #ebebeb;
+    box-sizing: border-box;
+    text-align: center;
+    min-height: 460px;
+    padding-top: 48px;
+    }
+    .order-step-2 .login .radio-line{
+      margin-bottom: 12px;
+      vertical-align: middle;
+      }
+    .order-step-2 .login .radio-line input[disabled]+label{
+      color: #ccc;
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      }
+      .order-step-2 .login .radio-line input[disabled]+label:before{
+        border:1px solid #e6e6e6;
+        background: none;
+        text-indent: -9999px;
+        color: #FFF;
+        }
+    .order-step-2 .login .radio-line input:checked+label{
+      color: #333;
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      }
+      .order-step-2 .login .radio-line label:hover:before,
+      .order-step-2 .login .radio-line input:checked+label:before{
+        border-color: #98c2cc;
+        background-color: #98C2CC;
+        color: #fff;
+        text-indent: 0;
+        }
+    .order-step-2 .login .radio-line label:hover{
+      color: #333;
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      }
+    .order-step-2 .login .radio-line label{
+      display: inline-block;
+      vertical-align: middle;
+      font-size: 14px;
+      line-height: 20px;
+      color: #333;
+      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      margin-right: 30px;
+      white-space: nowrap;
+      position: relative;
+      }
+      .order-step-2 .login .radio-line label span{
+        display: inline-block;
+        vertical-align: middle;
+        white-space: normal;
+        }
+      .order-step-2 .login .radio-line label:before{
+
+        content: '\e810';
+        font-family: "fontello";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        speak: none;
+       
+        text-decoration: none;
+        text-align: center;
+       
+        font-variant: normal;
+        text-transform: none;
+           
+        line-height: 20px;
+        margin-right: 10px;
+              
+        overflow: hidden;
+        width: 20px;
+        height: 20px;
+        border:1px solid #98c2cc;
+        vertical-align: middle;
+        display: inline-block;
+        
+        text-indent: -9999px;
+        border-radius: 100%;
+        color: #fff;
+        }
+    .order-step-2 .login .radio-line input{
+      display: inline-block;
+      vertical-align: middle;
+      position: absolute;
+      left: -99999px;
+      }
+    .order-step-2 .login .wrapper{
+      display: inline-block;
+      text-align: left;
+      }
+    .order-step-2 .login nav{
+      text-align: center;
+      }
+    .order-step-2 .login button{
+      padding: 0;
+      border-style:none;
+      width: 235px;
+      text-align: center;
+      background: #9ac2cb;
+      overflow: visible;
+      height: 43px;
+      font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 43px;
+      text-transform: uppercase;
+      color: #FFF;
+      cursor: pointer;
+      top: -24px;
+      position: relative;
+      }
+    .order-step-2 .login fieldset{
+      margin: 48px 0;
+      }
+      .order-step-2 .login fieldset label{
+        display: block;
+        margin-bottom: 24px;
+        }
+        .order-step-2 .login fieldset .input-placeholder{
+          padding-left: 125px;
+          font-size: 12px;
+          line-height: 53px;
+          text-align: center;
+          margin-top: -24px;
+          font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+          text-transform: uppercase;
+          }
+        .order-step-2 .login fieldset label input{
+          border: 2px solid #ebebeb;
+          display: inline-block;
+          margin: 0;
+          padding: 13px 10px 14px;
+          box-sizing: border-box;
+          font-size: 18px;
+          line-height: 22px;
+          height: 53px;
+          width: 400px;
+          }
+        .order-step-2 .login fieldset label span{
+          text-transform: uppercase;
+          display: inline-block;
+          width: 120px;
+          text-align: right;
+          margin-right: 5px;
+          font-size: 12px;
+          line-height: 53px;
+          vertical-align: middle;
+          font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+          }
+
+  .order-step-2 .details{
+    border:1px solid #ebebeb;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    min-height: 460px;
+    }
+    .order-step-2 .details .tel{
+      font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      line-height: 24px;
+      margin-left: 15px;
+      }
+    .order-step-2 .details ul{
+      margin-bottom: 24px;
+      }
+    .order-step-2 .details ul li:before{
+      color:#9ac2cb;
+      font-size: 8px;
+      margin-right: 10px;
+      margin-left: 15px;
+      vertical-align: middle;
+      }
+    .order-step-2 .details .sub-title{
+      font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      line-height: 24px;
+      }
+    .order-step-2 .details .title{
+      font-size: 18px;
+      line-height: 48px;
+      color: #333;
+      font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+      text-transform: uppercase;
+      }
+      .order-step-2 .details .title:before{
+        margin-right: 5px;
+        }

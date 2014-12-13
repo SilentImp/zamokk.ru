@@ -1,0 +1,144 @@
+.services-widget{
+  
+  }
+  .services-widget .question{
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+    }
+  .services-widget .question p{
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+    }
+  .services-widget .question:before{
+    float: left;
+    content: ' \E81D';
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    width: auto;
+    margin-top: 10px;
+    font-size: 50px;
+    speak: none;
+    color: #000;
+   
+    display: inline-block;
+    text-decoration: inherit;
+    text-align: center;
+   
+    font-variant: normal;
+    text-transform: none;
+       
+    line-height: inherit;
+    margin-right: 18px;
+    }
+   .services-widget .question b{
+    display: block;
+    font-size: 14px;
+    text-transform: lowercase;
+    }
+  .services-widget .service-list{
+    
+    }
+    .services-widget .service-list article{
+      
+      }
+      .services-widget .service-list article .service-name{
+        font-size: 20px;
+        line-height: 24px;
+        font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+        text-decoration: underline;
+        margin-bottom: 6px;
+        }
+      .services-widget .service-list article .service-abstract{
+        font-size: 14px;
+        line-height: 18px;
+        font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+        margin-bottom: 18px;
+        }
+      .services-widget .service-list article .price{
+        color: #414042;
+        font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 48px;
+        text-align: center;
+        }
+        .services-widget .service-list article .price:after{
+          content: ' \e811';
+          font-family: "fontello";
+          font-style: normal;
+          font-weight: normal;
+          margin-right: 3px;
+          font-size: 17px;
+          speak: none;
+          color: #BEBEBE;
+         
+          display: inline-block;
+          text-decoration: inherit;
+          text-align: center;
+         
+          font-variant: normal;
+          text-transform: none;
+             
+          line-height: inherit;
+          }
+      .services-widget .service-list article .add-to-card{
+        white-space: nowrap;
+        color: #FFF;
+        background-color: #9ac2cb;
+        font-family: "PT Sans Bold", Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        width: 100%;
+        line-height: 40px;
+        display: block;
+        text-transform: uppercase;
+        cursor: pointer;
+        text-align: center;
+        }
+      .services-widget .service-list article .duration{
+        color: #999;
+        font-size: 10px;
+        text-transform: uppercase;
+        }
+        .services-widget .service-list article .duration time:before{
+          content: ' \e80a';
+          font-family: "fontello";
+          font-style: normal;
+          font-weight: normal;
+          margin-right: 10px;
+          font-size: 20px;
+          vertical-align: middle;
+          speak: none;
+          color: #BEBEBE;
+          position: relative;
+          top: -2px;
+         
+          display: inline-block;
+          text-decoration: inherit;
+          text-align: center;
+         
+          font-variant: normal;
+          text-transform: none;
+             
+          line-height: inherit;
+          }
+  .services-widget .switch-title{
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 24px;
+    }
+    .services-widget .switch-title b{
+      color: #ccc;
+      }
+  .services-widget .services-widget-title{
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #414042;
+    }

@@ -1,0 +1,92 @@
+.content-widget{
+  
+  }
+  .content-widget article h1:first-child,
+  .content-widget article h2:first-child,
+  .content-widget article h3:first-child{
+    margin: 0 0 24px;
+    line-height: 48px;
+    }
+  .content-widget article h1,
+  .content-widget article h2,
+  .content-widget article h3{
+    margin: 32px 0 24px;
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+    }
+  .content-widget img{
+    display: block;
+    }
+  .content-widget .date{
+    white-space: nowrap;
+    font-size: 0;
+    text-transform: uppercase;
+    font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+    }
+    .content-widget .date .year{
+      display: inline-block;
+      font-size: 96px;
+      line-height: 96px;
+      margin: 0 20px 0 0;
+      }
+    .content-widget .date .bc{
+      display: inline-block;
+      font-size: 24px;
+      line-height: 32px;
+      }
+  .content-widget article p{
+    margin: 24px 0;
+    }
+  .content-widget article a.open{
+    text-transform: uppercase;
+    }
+  .content-widget article a{
+    text-decoration: underline;
+    }
+    .content-widget article a:hover{
+      text-decoration: none;
+      }
+  .content-widget>header{
+    position: relative;
+    margin: 0 0 48px;
+    overflow: hidden;
+    height: 200px;
+    line-height: 200px;
+    }
+    .content-widget>header img{
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      display: inline-block;
+      min-width: 100%;
+      z-index: 1;
+      vertical-align: middle;
+      }
+    .content-widget>header .title{
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      display: table;
+      height: auto;
+      margin: auto;
+      text-transform: uppercase;
+      font-family: "PT Sans Narrow Bold", Helvetica, Arial, sans-serif;
+      font-size: 24px;
+      line-height: 32px;
+      background-color: #ebebeb;
+      padding: 0 96px 0 64px;
+      z-index: 3;
+      }
+      .content-widget>header .title:after{
+        content:"";
+        display: block;
+        position: absolute;
+        background-color: #ebebeb;
+        top: -1000px;
+        bottom: -1000px;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        }
