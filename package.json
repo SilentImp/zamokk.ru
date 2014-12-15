@@ -26,6 +26,8 @@
     "gulp-uglify": "~1.0.2",
     "gh-pages": "~0.2.0",
     "coffee-script": "~1.8.0",
-    "path": "~0.4.9"
+    "path": "~0.4.9",
+    "gulp-jade": "~0.10.0",
+    "find": "~0.1.7"
   }
 }

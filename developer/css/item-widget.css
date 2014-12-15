@@ -5,6 +5,19 @@
     margin: 8px 12px 8px 0;
     }
 
+.catalogues{
+  font-size: 0;
+  margin: 24px 0;
+  }
+  .catalogues a:hover{
+    color: #bbd6dd;
+    }
+    .catalogues a:before{
+      display: inline-block;
+      margin: 0 20px 0 0;
+      font-size: 48px;
+      }
+
 .item-widget{
   position: relative;
   margin-bottom: 48px;  
@@ -573,7 +586,7 @@
       display: inline-block;
       vertical-align: middle;
       max-width: 100%;
-      max-height: 100%;
+      max-height: 400px;
       }
   .item-widget .previews{
     font-size: 0;
